@@ -1,0 +1,45 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'Kapi 1 idle', 18, false);
+    char.animation.addByPrefix('singUP', 'Kapi 1 left', 18, false);
+    char.animation.addByPrefix('singLEFT','Kapi 1 down', 18, false);
+    char.animation.addByPrefix('singRIGHT', 'Kapi 1 up', 18, false);
+    char.animation.addByPrefix('singDOWN', 'Kapi 1 right', 18, false);
+    trace("finish anim");
+
+    char.addOffset('idle', 150, -250);
+    char.addOffset('singUP', 155, -207);
+    char.addOffset('singRIGHT', 155, -255);
+    char.addOffset('singLEFT', 155, -354);
+    char.addOffset('singDOWN', 155, -292);
+
+    char.playAnim('idle');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 0;
+    char.playerOffsetX = 0;
+    char.playerOffsetY = 0;
+    char.followCamX = 200;
+    char.followCamY = 220;
+    char.midpointX = 0;
+    char.midpointY = 0;
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    char.playAnim('idle');
+}
+trace("done");

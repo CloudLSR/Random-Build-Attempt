@@ -1,0 +1,46 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+        currentPlayState.health -= 0.0156;
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

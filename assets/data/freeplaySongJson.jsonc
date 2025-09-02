@@ -1,13 +1,72 @@
 [
   {
+    "name": "Corruption",
+    "songs": [
+      {
+        "name": "Tormentor",
+        "character": "soul-bf",
+        "week": 0
+      }
+    ]
+  },
+
+    {
+    "name": "Fanmades",
+    "songs": [
+      {
+        "name": "Relief",
+        "character": "spooky-relief",
+        "week": 0
+      },
+      {
+        "name": "Bravery",
+        "character": "pico-bravery",
+        "week": 0
+      },
+      {
+        "name": "Distress",
+        "character": "spooky-distress",
+        "week": 0
+      },
+      {
+        "name": "Xenophobia",
+        "character": "spooky-xenophobia",
+        "week": 0
+      },
+      {
+        "name": "Killer",
+        "character": "spooky-killer",
+        "week": 0
+      },
+      {
+        "name": "Warzone",
+        "character": "steve-warzone",
+        "week": 0
+      },
+      {
+        "name": "Ruins",
+        "character": "sarv-ruins",
+        "week": 0
+      },
+      {
+        "name": "Wocky Remix",
+        "character": "kapi-wocky",
+        "week": 0
+      }
+    ]
+  },
+
+  {
     "name": "Base Game",
     "songs": [
       // we use tjson so we can do comments and do some incorrect things
       // the reason we use tjson is because json is hard
       // The category screen won't show up unless there are more than 1 categories
-      {"name":"Tutorial",
-      "character":"gf",
-      "week": 0},
+      {
+        "name":"Tutorial",
+        "character":"gf",
+        "week": 0
+      },
       {
         "name": "Bopeebo",
         "character": "dad",
@@ -103,7 +162,7 @@
         "flags" : ["debug"]
       }
     ]
-  },
+  }
   // trailing commas don't matter with tjson
   // visual studio code is just pissy
   /*

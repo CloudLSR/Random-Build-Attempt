@@ -1,0 +1,50 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 896){
+        FlxG.camera.flash(0x000000, 1.1);
+            }
+if (step == 896){
+    switchCharacter('spooky-xenophobia2', 'dad');
+ }; 
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

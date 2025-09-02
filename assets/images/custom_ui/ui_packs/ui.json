@@ -11,5 +11,30 @@
         "isPixel": true,
         "builtInJudgement": false,
         "uses": "normal"
+    },
+    "corruption": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "corruption"
+    },
+    "b-side": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "b-side"
+    },
+    "reimagined": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "reimagined"
+    },
+    "kapi": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "kapi"
+    },
+    "sarvente": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "sarvente"
     }
 }

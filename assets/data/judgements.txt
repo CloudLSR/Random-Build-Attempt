@@ -1,5 +1,6 @@
 none
 normal
+corruption
 etternaNormal
 etternaTiming
 kade

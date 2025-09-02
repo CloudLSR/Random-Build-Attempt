@@ -123,5 +123,143 @@
     "like": "spirit-hd",
     "icons": [0,1,2],
     "colors": ["#BC7333"]
+  },
+
+
+
+// CORRUPTION
+  "bf-corrupted": {
+    "like": "bf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-corrupted2": {
+    "like": "bf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "gf-corrupted": {
+    "like": "gf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+
+
+// DISTRESS
+  "pico-distress": {
+    "like": "pico-distress",
+    "icons": [0,1,24],
+    "colors": ["#99FF7D"]
+  },
+  "spooky-distress": {
+    "like": "spooky-distress",
+    "icons": [0,1,24],
+    "colors": ["#3a338a"]
+  },
+  "spooky-xenophobia": {
+    "like": "spooky-distress",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
+  "spooky-xenophobia2": {
+    "like": "spooky-distress",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
+  "spooky-killer": {
+    "like": "spooky-distress",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
+
+
+// RUINS
+  "spooky-ruins": {
+    "like": "spooky-ruins",
+    "icons": [0,1,24],
+    "colors": ["#D147A3"]
+  },
+  "sarv-ruins": {
+    "like": "sarv-ruins",
+    "icons": [0,1,24],
+    "colors": ["#B38FAF"]
+  },
+
+
+// TORMENTOR
+  "bf-look": {
+    "like": "bf-look",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "soul-bf": {
+    "like": "soul-bf",
+    "icons": [0,1,24],
+    "colors": ["#8016CC"]
+  },
+
+
+// WOCKY
+  "kapi-wocky": {
+    "like": "kapi-wocky",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "kapi-wocky2": {
+    "like": "kapi-wocky2",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "bf-wocky": {
+    "like": "bf-wocky",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+
+
+// BRAVERY
+  "speaker-bravery": {
+    "like": "speaker-bravery",
+    "icons": [0,1,24],
+    "colors": ["#C97C2A"]
+  },
+  "spooky-bravery": {
+    "like": "spooky-bravery",
+    "icons": [0,1,24],
+    "colors": ["#C97C2A"]
+  },
+  "pico-bravery": {
+    "like": "pico-bravery",
+    "icons": [0,1,24],
+    "colors": ["#E68B29"]
+  },
+
+
+// RELIEF
+  "spooky-relief": {
+    "like": "spooky-relief",
+    "icons": [0,1,24],
+    "colors": ["#524D87"]
+  },
+
+
+// WARZONE
+  "pico-warzone": {
+    "like": "pico-warzone",
+    "icons": [0,1,24],
+    "colors": ["#DB32B4"]
+  },
+  "steve-warzone": {
+    "like": "steve-warzone",
+    "icons": [0,1,24],
+    "colors": ["#DB32B4"]
+  },
+
+  
+// EXTRA
+  "no-gf": {
+    "like": "gf",
+    "icons": [0,1,24],
+    "colors": ["#FFFFFF"]
   }
 }

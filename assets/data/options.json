@@ -1,6 +1,6 @@
 {
-    "skipVictoryScreen": false,
-    "skipModifierMenu": false,
+    "skipVictoryScreen": true,
+    "skipModifierMenu": true,
     "alwaysDoCutscenes": false,
     "useCustomInput": true,
     "allowEditOptions": true,
@@ -8,10 +8,10 @@
     "downscroll": false,
     "preferredSave": 0,
     "showSongPos": true,
-    "style": true,
+    "style": false,
     "stressTankmen": false,
     "ignoreUnlocks": false,
-    "preferJudgement": 0,
+    "preferJudgement": 2,
     "judge": 9,
     "newJudgementPos": false,
     "emuOsuLifts": false,
@@ -25,7 +25,7 @@
     "funnyOptions": true,
     "allowStoryMode": true,
     "allowFreeplay": true,
-    "allowDonate": true,
+    "allowDonate": false,
     "fpsCap": 60,
-    "titleToggle": true
+    "titleToggle": false
 }

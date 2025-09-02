@@ -1,0 +1,54 @@
+var trail;
+var trail2;
+function start(song)
+{
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 388){
+    var trail = new FlxTrail(dad, null, 7, 2, 0.3, 0.05);
+    addSprite(trail, BEHIND_ALL);
+            }
+if (step == 453){
+    var trail2 = new FlxTrail(boyfriend, null, 7, 2, 0.3, 0.05);
+    addSprite(trail2, BEHIND_ALL);
+ }; 
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

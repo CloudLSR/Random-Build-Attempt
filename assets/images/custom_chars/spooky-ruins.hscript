@@ -1,0 +1,53 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByIndices('danceLeft', 'spooky dance idle', [0,2,6], "", 12, false);
+    char.animation.addByIndices('danceRight', 'spooky dance idle', [8,10,12,14], "", 12, false);
+    char.animation.addByPrefix('singUP', 'spooky UP NOTE', 24, false);
+    char.animation.addByPrefix('singLEFT','note sing left', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'spooky sing right', 24, false);
+    char.animation.addByPrefix('singDOWN', 'spooky DOWN note', 24, false);
+    
+
+    char.addOffset('danceLeft', -120, -7);
+    char.addOffset('danceRight', -120, -7);
+    char.addOffset('singUP', -180, 13);
+    char.addOffset('singRIGHT', -150, -17);
+    char.addOffset('singLEFT', -70, -24);
+    char.addOffset('singDOWN', -130, -147);
+
+    char.playAnim('danceRight');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 0;
+    char.playerOffsetX = 0;
+    char.playerOffsetY = 0;
+    char.followCamX = 110;
+    char.followCamY = 10;
+    char.midpointX = 0;
+    char.midpointY = 0;
+    char.setGraphicSize(Std.int(char.width * 0.75));
+}
+portraitOffset = [0, 0];
+dadVar = 4.0;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    danced = !danced;
+    if (danced) {
+        char.playAnim('danceLeft');
+    } else {
+        char.playAnim('danceRight');
+    }
+}
+trace("done");

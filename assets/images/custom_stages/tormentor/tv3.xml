@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tormentor_Bf_Background_Tv.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="evil Bf Static Anim0000" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0001" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0002" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0003" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0004" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0005" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0006" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0007" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0008" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0009" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0010" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0011" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0012" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0013" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0014" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0015" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0016" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0017" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0018" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0019" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0020" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0021" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0022" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0023" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0024" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0025" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0026" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0027" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0028" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0029" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0030" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0031" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0032" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0033" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0034" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0035" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0036" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0037" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0038" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0039" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0040" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0041" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0042" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0043" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0044" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0045" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0046" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0047" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0048" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0049" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0050" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0051" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0052" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0053" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0054" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0055" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0056" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0057" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0058" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0059" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0060" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0061" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0062" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0063" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0064" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0065" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0066" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0067" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0068" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0069" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0070" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0071" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0072" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0073" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0074" x="5345" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0075" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0076" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0077" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0078" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0079" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0080" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0081" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0082" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0083" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0084" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0085" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0086" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0087" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0088" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0089" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0090" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0091" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0092" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0093" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0094" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0095" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0096" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0097" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0098" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0099" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0100" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0101" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0102" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0103" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0104" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0105" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0106" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0107" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0108" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0109" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0110" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0111" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0112" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0113" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0114" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0115" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0116" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0117" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0118" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0119" x="3207" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0120" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0121" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0122" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0123" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0124" x="0" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0125" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0126" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0127" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0128" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0129" x="1069" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0130" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0131" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0132" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0133" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0134" x="2138" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0135" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0136" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0137" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0138" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0139" x="6414" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0140" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0141" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0142" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0143" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0144" x="0" y="746" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0145" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0146" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0147" x="4276" y="0" width="1069" height="746"/>
+	<SubTexture name="evil Bf Static Anim0148" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0149" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0150" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0151" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0152" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0153" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0154" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0155" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0156" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0157" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0158" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0159" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0160" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0161" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0162" x="2883" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0163" x="2883" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0164" x="2883" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0165" x="2883" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0166" x="3790" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0167" x="3790" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0168" x="3790" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0169" x="3790" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0170" x="3790" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0171" x="4697" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0172" x="4697" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0173" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0174" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0175" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0176" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0177" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0178" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0179" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0180" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0181" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0182" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0183" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0184" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0185" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0186" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0187" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0188" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0189" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0190" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0191" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0192" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0193" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0194" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0195" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0196" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0197" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0198" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0199" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0200" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0201" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0202" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0203" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0204" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0205" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0206" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0207" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0208" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0209" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0210" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0211" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0212" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0213" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0214" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0215" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0216" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0217" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0218" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0219" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0220" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0221" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0222" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0223" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0224" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0225" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0226" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0227" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0228" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0229" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0230" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0231" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0232" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0233" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0234" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0235" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0236" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0237" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0238" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0239" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0240" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0241" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0242" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0243" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0244" x="4535" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0245" x="4535" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0246" x="4535" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0247" x="4535" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0248" x="4535" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0249" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0250" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0251" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0252" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0253" x="1814" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0254" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0255" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0256" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0257" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0258" x="2721" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0259" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0260" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0261" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0262" x="3628" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0263" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0264" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0265" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0266" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0267" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0268" x="5604" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0269" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0270" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0271" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0272" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0273" x="6511" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0274" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0275" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0276" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0277" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0278" x="0" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0279" x="907" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0280" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0281" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0282" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0283" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0284" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0285" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0286" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0287" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0288" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0289" x="5442" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0290" x="5442" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0291" x="5442" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0292" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0293" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0294" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0295" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0296" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0297" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0298" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0299" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0300" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0301" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0302" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0303" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0304" x="6349" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0305" x="7256" y="1492" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0306" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0307" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0308" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0309" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0310" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0311" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0312" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0313" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0314" x="1069" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+	<SubTexture name="evil Bf Static Anim0315" x="1976" y="746" width="907" height="584" frameX="-79" frameY="-79" frameWidth="1069" frameHeight="746"/>
+</TextureAtlas>

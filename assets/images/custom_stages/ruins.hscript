@@ -1,0 +1,58 @@
+function start(song) {
+    var stageFront = new FlxSprite(-180, -574).loadGraphic(hscriptPath + 'floor.png');
+    stageFront.scrollFactor.set(0.9, 0.9);
+    stageFront.antialiasing = true;
+    addSprite(stageFront, BEHIND_ALL);
+    var bg = new FlxSprite(-270, -690).loadGraphic(hscriptPath + 'bg.png');
+    bg.setGraphicSize(Std.int(stageFront.width * 1.1));
+    bg.scrollFactor.set(0.9, 0.9);
+    bg.antialiasing = true;
+    bg.updateHitbox();
+    addSprite(bg, BEHIND_ALL);
+    var stagecurtains = new FlxSprite(-195, -614).loadGraphic(hscriptPath + 'pillars.png');
+    stagecurtains.setGraphicSize(Std.int(stageFront.width * 1.05));
+    stagecurtains.scrollFactor.set(0.92, 0.9);
+    stagecurtains.updateHitbox();
+    stagecurtains.antialiasing = true;
+    addSprite(stagecurtains, BEHIND_ALL);
+    setDefaultZoom(0.86);
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

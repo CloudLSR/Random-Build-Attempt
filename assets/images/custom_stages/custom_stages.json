@@ -7,5 +7,15 @@
     "schoolEvil": "schoolEvil",
     "spooky": "spooky",
     "stage": "stage",
-    "tank": "tank"
+    "tank": "tank",
+
+    "tormentor": "tormentor",
+    "relief": "relief",
+    "bravery": "bravery",
+    "distress": "distress",
+    "xenophobia": "distress",
+    "killer": "distress",
+    "warzone": "warzone",
+    "ruins": "ruins",
+    "kapi": "kapi"
 }
