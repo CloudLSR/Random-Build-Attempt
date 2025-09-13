@@ -1,31 +1,88 @@
-# Friday Night Funkin
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FTheDrawingCoder-Gamer%2FFunkin%2Fbadge%3Fref%3Dmaster&style=for-the-badge)](https://actions-badge.atrox.dev/TheDrawingCoder-Gamer/Funkin/goto?ref=master)
-![Azure DevOps builds](https://img.shields.io/azure-devops/build/benharless820/7af207e5-72fd-483f-9a48-6fc65e63abb9/4?label=pipelines&style=for-the-badge)
-[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/just-plain-nasty.svg)](https://forthebadge.com)
+# Random Build Attempt
 
-This is the repository for Friday Night Funkin Modding Plus, a mod for FNF to add more features for modders and players alike.
+This is the repository for the Random Build Attempt, a Friday Night Funkin’ Corruption mod made in the Modding Plus Engine.
 
-Any mods made with this mod must have express permission from the creator of songs included. 
-(for example, if you include the Whitty Mod, you should have express permission from Nate Anim8, KadeDev, and SockClip.
-I at least would like to see the main author and a majority of secondary offers get express permission)
-If an author gives express disapproval, and the mod is up, you should take your mod down. I own the code to this mod so I can (and will)
-take down mods that don't follow this rule.
+Originally started in 2021 but eventually got abandoned due to low motivation and the rise of newer engines, u know. I’m uploading this as a kinda polished version of what the release should’ve been back then.
 
+<p align="center">
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/promo.gif" alt="PROMO">
+  </a>
+</p>
 
-- Get the cutting edge build: https://dev.azure.com/benharless820/FNF%20Modding%20Plus/_build
+<p align="center">
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview1.gif" width="250" alt="GIF1">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview2.gif" width="250" alt="GIF2">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview3.gif" width="250" alt="GIF3">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview4.gif" width="250" alt="GIF4">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview5.gif" width="250" alt="GIF5">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview6.gif" width="250" alt="GIF6">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview7.gif" width="250" alt="GIF7">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview8.gif" width="250" alt="GIF8">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/preview9.gif" width="250" alt="GIF9">
+  </a>
+</p>
+
+I know some of these assets are a bit outdated, so here’s the usual disclaimer: I don’t authorize their use outside of this build, as they are private and most of them were included with permission from their respective creators. Btw, if you ever need them, I’d appreciate it if you reached out to the original creators for permission. They’ll usually grant it as long as you credit them for their work.
+
 - Play the Original Game: https://github.com/ninjamuffin99/Funkin
-- Need Help? FNF Modding Plus Discord: https://discord.gg/xeC748FR
-- Trello Page (todo list): https://trello.com/b/cFjJJIjF/fnf-modding-plus
-## Credits for the Original Game
+- Modding Plus Engine: https://github.com/FunkinModdingPlus/ModdingPlus
+- Funkin' Corruption Demo: https://gamejolt.com/games/fnfcorruption/588842
+- More Low Quality Content?: https://www.youtube.com/@JoseLSR
+
+## Build Attempt Credits
+
+- [JoseLSR](https://x.com/CloudLSR) - Owner, Coder, Charter & Artist
+- [Ale](https://www.youtube.com/@just_tanooki) and [Sannes](https://x.com/YuaSabaru) - Artist
+- [Cuphead](https://x.com/CupsWrldGod) and [FacuDraws](https://x.com/FacuDraws) - Artist & Animator
+- [TukiMaster](https://www.youtube.com/@azure097) - Script & Chart Helper
+- [Coder](https://www.youtube.com/@clauskr) and [Peeka](https://bsky.app/profile/peekalepika.bsky.social) - Script Helper
+- [FeliperADE](https://www.youtube.com/@ADEstilo) - Chart Helper
+- [NotSpring](https://www.youtube.com/@NotSpring) and [Kitecek](https://www.youtube.com/channel/UCC_j1uNf9wwz-2KSeB_BlhQ) - Sprite Helper
+- [SrNinoX](https://x.com/SrCausaX), [Andy](https://www.youtube.com/@ItzEnzoYT) and [Marty](https://www.youtube.com/@Marty_nt-1987) - Helper
+- [Werearu](https://www.youtube.com/channel/UC7vsrUiSHs4GhJVQXUMj0UA), [Nerozes](https://steamcommunity.com/profiles/76561199813887681), [Kass](https://www.youtube.com/@mrgumbubble), [MeLo](https://www.youtube.com/@Melo70), [CLzxy](https://www.youtube.com/@clzxy), [Dusty](https://www.youtube.com/@DustyDev) and [Raistar](https://www.youtube.com/@Rai_P14) - Pogger
+
+## Special Thanks!
+
+- [PhantomFear](https://www.youtube.com/@PhantomFearYT), [PincerProd](https://www.youtube.com/@PincerProd), [Saster](https://www.youtube.com/@sasterofficial), [DatDavi](https://www.youtube.com/@datdavi), [Saruky](https://www.youtube.com/@Saruky), [SimplyCrispy](https://www.youtube.com/@SimplyCrispy) and [fluffyhairs](https://www.youtube.com/channel/UC45OK9Bcx9R7uJ1tPMJaTkg) - Friday Night Funkin' Corruption
+- [SrGuest](https://www.youtube.com/@SrGuest) - Funkin' Corruption: Fighting Back
+- [DyanEstella](https://www.youtube.com/@DyanEstella), [Bubsuki](https://www.youtube.com/channel/UCMGVOA0_qp-IcYLsSIDocMA), [ThatBlueWolf](https://www.youtube.com/@blazingrose_5624), [ValorGenesect](https://www.youtube.com/@ValorGenesect) and [FunnyMan](https://www.youtube.com/@funnymanisfunny) - Funkin' Corruption: Reimagined
+- [Honton129](https://www.youtube.com/c/Honton129) - The Corrupted B-Sides
+- [MK](https://www.youtube.com/@Ghosty_MKZ) and [TheMayz](https://www.youtube.com/@TheRealMayz) - Corrupted Tankman: The Last Stand
+- [Blantados](https://www.youtube.com/@Blantados21) and [Foodieti](https://www.youtube.com/@Foodieti) - Friday Night Funkin' Un-Corruption
+- [Vixtin](https://www.youtube.com/@ElAnthonyVixtin) - Funkin' Corruption: Expanded
+- [JustARobot](https://www.youtube.com/@JustARobotIdk), [ItsMatt](https://www.youtube.com/@ItsMattBK) and [RyZe](https://www.youtube.com/@trueryze/videos) - Funkin' Corruption: Vs Monika
+
+## Friday Night Funkin' Credits
 
 - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programmer
 - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
 - [KawaiSprite](https://twitter.com/kawaisprite) - Musician
-## Modding+ Credits
+
+## Modding Plus Credits
 
 - [BulbyVR](https://github.com/TheDrawingCoder-Gamer) - Owner/Programmer
 - [DJ Popsicle](https://gamebanana.com/members/1780306) - Co-Owner/Additional Programmer
@@ -35,6 +92,7 @@ take down mods that don't follow this rule.
 - [Drippy](https://github.com/TrafficKid) - GitHub Wikipedia
 - [GwebDev](https://github.com/GrowtopiaFli) - Edited WebM code
 - [Axy](https://github.com/timeless13GH) - Poggers help
+
 ## Build instructions
 
 THESE INSTRUCTIONS ARE FOR COMPILING THE GAME'S SOURCE CODE!!!
@@ -71,9 +129,7 @@ You'll also need to install hscript-ex. Do this with
 haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
 ```
 
-
 ### Compiling game
-
 
 To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved. For Linux, you only need to open a terminal in the project directory and run 'lime test linux -debug' and then run the executible file in export/release/linux/bin. For Windows, you need to install Visual Studio Community 2019. While installing VSC, don't click on any of the options to install workloads. Instead, go to the individual components tab and choose the following:
 * MSVC v142 - VS 2019 C++ x64/x86 build tools
@@ -92,6 +148,7 @@ To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved.
 
 This will install about 22GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
+
 ### Additional guides
 
 - [Command line basics](https://ninjamuffin99.newgrounds.com/news/post/1090480)
