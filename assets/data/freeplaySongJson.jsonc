@@ -52,10 +52,41 @@
         "character": "mom-day3",
         "week": 4
       },
-
-
-
-
+      {
+        "name": "Senpai-Remix",
+        "character": "senpai-day1",
+        "week": 6
+      },
+      {
+        "name": "Dead-Pixel",
+        "character": "senpai-day2",
+        "week": 6
+      },
+      {
+        "name": "Treacherous-Thorns",
+        "character": "senpai-day3",
+        "week": 6
+      },
+      {
+        "name": "Roots",
+        "character": "spirit-day4",
+        "week": 6
+      },
+      {
+        "name": "Lament",
+        "character": "dad-day1",
+        "week": 1
+      },
+      {
+        "name": "Dusk",
+        "character": "dad-day2",
+        "week": 1
+      },
+      {
+        "name": "Deathmatch",
+        "character": "dad-day3",
+        "week": 1
+      },
       {
         "name": "Tormentor",
         "character": "soul-bf",

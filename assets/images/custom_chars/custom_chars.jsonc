@@ -219,6 +219,89 @@
     "colors": ["#FF95C5"]
   },
 
+
+// SENPAI
+  "bf-pixel-corrupted": {
+    "like": "bf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-pixel-corrupted2": {
+    "like": "bf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-pixel-corrupted3": {
+    "like": "bf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-pixel-corrupted4": {
+    "like": "bf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+
+  "gf-pixel-corrupted": {
+    "like": "gf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "gf-pixel-corrupted2": {
+    "like": "gf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "gf-pixel-corrupted3": {
+    "like": "gf-pixel-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+
+  "senpai-day1": {
+    "like": "senpai-day1",
+    "icons": [0,1,24],
+    "colors": ["#EE19D9"]
+  },
+  "senpai-day2": {
+    "like": "senpai-day1",
+    "icons": [0,1,24],
+    "colors": ["#BC7333"]
+  },
+  "senpai-day3": {
+    "like": "senpai-day1",
+    "icons": [0,1,24],
+    "colors": ["#61452C"]
+  },
+  "spirit-day4": {
+    "like": "spirit-day4",
+    "icons": [0,1,24],
+    "colors": ["#F74343"]
+  },
+  
+  
+// DAD
+  "dad-day1": {
+    "like": "dad-day1",
+    "icons": [0,1,24],
+    "colors": ["#BD07D9"]
+  },
+  "dad-day2": {
+    "like": "dad-day1",
+    "icons": [0,1,24],
+    "colors": ["#BD07D9"]
+  },
+  "dad-day3": {
+    "like": "dad-day3",
+    "icons": [0,1,24],
+    "colors": ["#BD07D9"]
+  },
+  "bf-corrupted3": {
+    "like": "bf-corrupted3",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+
   
 // SOUL BF
   "bf-look": {

@@ -6,43 +6,43 @@ Originally started in 2021 but eventually got abandoned due to low motivation an
 
 <p align="center">
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/promo.gif" alt="PROMO">
+    <img src="assets/github/promo.gif" alt="PROMO">
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview1.gif" width="250" alt="GIF1">
+    <img src="assets/github/preview1.gif" width="250" alt="GIF1">
   </a>
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview2.gif" width="250" alt="GIF2">
+    <img src="assets/github/preview2.gif" width="250" alt="GIF2">
   </a>
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview3.gif" width="250" alt="GIF3">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview4.gif" width="250" alt="GIF4">
-  </a>
-  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview5.gif" width="250" alt="GIF5">
-  </a>
-  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview6.gif" width="250" alt="GIF6">
+    <img src="assets/github/preview3.gif" width="250" alt="GIF3">
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview7.gif" width="250" alt="GIF7">
+    <img src="assets/github/preview4.gif" width="250" alt="GIF4">
   </a>
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview8.gif" width="250" alt="GIF8">
+    <img src="assets/github/preview5.gif" width="250" alt="GIF5">
   </a>
   <a href="https://www.youtube.com/@JoseLSR" target="_blank">
-    <img src="assets/preview9.gif" width="250" alt="GIF9">
+    <img src="assets/github/preview6.gif" width="250" alt="GIF6">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/github/preview7.gif" width="250" alt="GIF7">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/github/preview8.gif" width="250" alt="GIF8">
+  </a>
+  <a href="https://www.youtube.com/@JoseLSR" target="_blank">
+    <img src="assets/github/preview9.gif" width="250" alt="GIF9">
   </a>
 </p>
 
@@ -62,19 +62,8 @@ I know some of these assets are a bit outdated, so here’s the usual disclaimer
 - [Coder](https://www.youtube.com/@clauskr) and [Peeka](https://bsky.app/profile/peekalepika.bsky.social) - Script Helper
 - [FeliperADE](https://www.youtube.com/@ADEstilo) - Chart Helper
 - [NotSpring](https://www.youtube.com/@NotSpring) and [Kitecek](https://www.youtube.com/channel/UCC_j1uNf9wwz-2KSeB_BlhQ) - Sprite Helper
-- [SrNinoX](https://x.com/SrCausaX), [Andy](https://www.youtube.com/@ItzEnzoYT) and [Marty](https://www.youtube.com/@Marty_nt-1987) - Helper
-- [Werearu](https://www.youtube.com/channel/UC7vsrUiSHs4GhJVQXUMj0UA), [Nerozes](https://steamcommunity.com/profiles/76561199813887681), [Kass](https://www.youtube.com/@mrgumbubble), [MeLo](https://www.youtube.com/@Melo70), [CLzxy](https://www.youtube.com/@clzxy), [Dusty](https://www.youtube.com/@DustyDev) and [Raistar](https://www.youtube.com/@Rai_P14) - Pogger
-
-## Special Thanks!
-
-- [PhantomFear](https://www.youtube.com/@PhantomFearYT), [PincerProd](https://www.youtube.com/@PincerProd), [Saster](https://www.youtube.com/@sasterofficial), [DatDavi](https://www.youtube.com/@datdavi), [Saruky](https://www.youtube.com/@Saruky), [SimplyCrispy](https://www.youtube.com/@SimplyCrispy) and [fluffyhairs](https://www.youtube.com/channel/UC45OK9Bcx9R7uJ1tPMJaTkg) - Friday Night Funkin' Corruption
-- [SrGuest](https://www.youtube.com/@SrGuest) - Funkin' Corruption: Fighting Back
-- [DyanEstella](https://www.youtube.com/@DyanEstella), [Bubsuki](https://www.youtube.com/channel/UCMGVOA0_qp-IcYLsSIDocMA), [ThatBlueWolf](https://www.youtube.com/@blazingrose_5624), [ValorGenesect](https://www.youtube.com/@ValorGenesect) and [FunnyMan](https://www.youtube.com/@funnymanisfunny) - Funkin' Corruption: Reimagined
-- [Honton129](https://www.youtube.com/c/Honton129) - The Corrupted B-Sides
-- [MK](https://www.youtube.com/@Ghosty_MKZ) and [TheMayz](https://www.youtube.com/@TheRealMayz) - Corrupted Tankman: The Last Stand
-- [Blantados](https://www.youtube.com/@Blantados21) and [Foodieti](https://www.youtube.com/@Foodieti) - Friday Night Funkin' Un-Corruption
-- [Vixtin](https://www.youtube.com/@ElAnthonyVixtin) - Funkin' Corruption: Expanded
-- [JustARobot](https://www.youtube.com/@JustARobotIdk), [ItsMatt](https://www.youtube.com/@ItsMattBK) and [RyZe](https://www.youtube.com/@trueryze/videos) - Funkin' Corruption: Vs Monika
+- [SrNinoX](https://x.com/SrCausaX), [Andy](https://www.youtube.com/@ItzEnzoYT), [Werearu](https://www.youtube.com/channel/UC7vsrUiSHs4GhJVQXUMj0UA), [Nerozes](https://steamcommunity.com/profiles/76561199813887681) and [Marty](https://www.youtube.com/@Marty_nt-1987) - Helpers
+- [Kassuyu](https://www.youtube.com/@mrgumbubble), [MeLo](https://www.youtube.com/@Melo70), [CLzxy](https://www.youtube.com/@clzxy), [Dusty](https://www.youtube.com/@DustyDev) and [Raistar](https://www.youtube.com/@Rai_P14) - Poggers
 
 ## Friday Night Funkin' Credits
 
@@ -92,6 +81,17 @@ I know some of these assets are a bit outdated, so here’s the usual disclaimer
 - [Drippy](https://github.com/TrafficKid) - GitHub Wikipedia
 - [GwebDev](https://github.com/GrowtopiaFli) - Edited WebM code
 - [Axy](https://github.com/timeless13GH) - Poggers help
+
+## Special Thanks!
+
+- [PhantomFear](https://www.youtube.com/@PhantomFearYT), [PincerProd](https://www.youtube.com/@PincerProd), [Saster](https://www.youtube.com/@sasterofficial), [DatDavi](https://www.youtube.com/@datdavi), [Saruky](https://www.youtube.com/@Saruky), [SimplyCrispy](https://www.youtube.com/@SimplyCrispy) and [fluffyhairs](https://www.youtube.com/channel/UC45OK9Bcx9R7uJ1tPMJaTkg) - Friday Night Funkin' Corruption
+- [SrGuest](https://www.youtube.com/@SrGuest) - Funkin' Corruption: Fighting Back
+- [DyanEstella](https://www.youtube.com/@DyanEstella), [Bubsuki](https://www.youtube.com/channel/UCMGVOA0_qp-IcYLsSIDocMA), [ThatBlueWolf](https://www.youtube.com/@blazingrose_5624), [ValorGenesect](https://www.youtube.com/@ValorGenesect) and [funnyman](https://www.youtube.com/@funnymanisfunny) - Funkin' Corruption: Reimagined
+- [Honton129](https://www.youtube.com/c/Honton129) - The Corrupted B-Sides
+- [MK](https://www.youtube.com/@Ghosty_MKZ) and [TheMayz](https://www.youtube.com/@TheRealMayz) - Corrupted Tankman: The Last Stand
+- [Blantados](https://www.youtube.com/@Blantados21) and [Foodieti](https://www.youtube.com/@Foodieti) - Friday Night Funkin' Un-Corruption
+- [Vixtin](https://www.youtube.com/@ElAnthonyVixtin) - Funkin' Corruption: Expanded
+- [JustARobot](https://www.youtube.com/@JustARobotIdk), [ItsMatt](https://www.youtube.com/@ItsMattBK) and [RyZe](https://www.youtube.com/@trueryze/videos) - Funkin' Corruption: Vs Monika
 
 ## Build instructions
 
