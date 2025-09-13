@@ -3,6 +3,60 @@
     "name": "Corruption",
     "songs": [
       {
+        "name": "Winter-Horrorland",
+        "character": "monster-christmas",
+        "week": 5
+      },
+      {
+        "name": "Pico-Remix",
+        "character": "pico-day1",
+        "week": 3
+      },
+      {
+        "name": "Philly-Nice-Remix",
+        "character": "pico-day2",
+        "week": 3
+      },
+      {
+        "name": "Blammed-X-MILF",
+        "character": "pico-day3",
+        "week": 3
+      },
+      {
+        "name": "Spookeez-Remix",
+        "character": "spooky-day1",
+        "week": 2
+      },
+      {
+        "name": "Sanguine-South",
+        "character": "spooky-day2",
+        "week": 2
+      },
+      {
+        "name": "Chiller",
+        "character": "spooky-day3",
+        "week": 2
+      },
+      {
+        "name": "Matricidal",
+        "character": "mom-day1",
+        "week": 4
+      },
+      {
+        "name": "MILK",
+        "character": "mom-day2",
+        "week": 4
+      },
+      {
+        "name": "Schizophrenzy",
+        "character": "mom-day3",
+        "week": 4
+      },
+
+
+
+
+      {
         "name": "Tormentor",
         "character": "soul-bf",
         "week": 0

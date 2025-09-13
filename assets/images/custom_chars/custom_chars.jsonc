@@ -127,6 +127,7 @@
 
 
 
+
 // CORRUPTION
   "bf-corrupted": {
     "like": "bf-corrupted",
@@ -142,6 +143,93 @@
     "like": "gf-corrupted",
     "icons": [0,1,24],
     "colors": ["#149DFF"]
+  },
+
+
+// PEEKO
+  "pico-day1": {
+    "like": "pico-day1",
+    "icons": [0,1,24],
+    "colors": ["#99FF7D"]
+  },
+  "pico-day2": {
+    "like": "pico-day1",
+    "icons": [0,1,24],
+    "colors": ["#99FF7D"]
+  },
+  "pico-day3": {
+    "like": "pico-day1",
+    "icons": [0,1,24],
+    "colors": ["#99FF7D"]
+  },
+  "bf-uncorrupted": {
+    "like": "bf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+
+
+// SPOOKY
+  "spooky-day1": {
+    "like": "spooky-day1",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
+  "spooky-day2": {
+    "like": "spooky-day1",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
+  "spooky-day3": {
+    "like": "spooky-day1",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
+
+
+// MOM
+  "mom-day1": {
+    "like": "mom-day1",
+    "icons": [0,1,24],
+    "colors": ["#FF95C5"]
+  },
+  "mom-day2": {
+    "like": "mom-day1",
+    "icons": [0,1,24],
+    "colors": ["#FF95C5"]
+  },
+  "mom-day3": {
+    "like": "mom-day1",
+    "icons": [0,1,24],
+    "colors": ["#FF95C5"]
+  },
+  "pico-corrupted": {
+    "like": "pico-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#99FF7D"]
+  },
+  "pico-uncorrupted": {
+    "like": "pico-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#FF95C5"]
+  },
+  "pico-corrupted2": {
+    "like": "pico-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#FF95C5"]
+  },
+
+  
+// SOUL BF
+  "bf-look": {
+    "like": "bf-look",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "soul-bf": {
+    "like": "soul-bf",
+    "icons": [0,1,24],
+    "colors": ["#8016CC"]
   },
 
 
@@ -183,19 +271,6 @@
     "like": "sarv-ruins",
     "icons": [0,1,24],
     "colors": ["#B38FAF"]
-  },
-
-
-// TORMENTOR
-  "bf-look": {
-    "like": "bf-look",
-    "icons": [0,1,24],
-    "colors": ["#149DFF"]
-  },
-  "soul-bf": {
-    "like": "soul-bf",
-    "icons": [0,1,24],
-    "colors": ["#8016CC"]
   },
 
 

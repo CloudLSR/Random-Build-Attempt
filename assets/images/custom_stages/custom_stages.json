@@ -9,7 +9,16 @@
     "stage": "stage",
     "tank": "tank",
 
+    "philly2": "philly",
+    "philly3": "philly",
+    "spooky1": "spooky",
+    "spooky2": "spooky",
+    "spooky3": "spooky",
+    "limo1": "limo",
+    "limo2": "limo",
+    "limo3": "limo",
     "tormentor": "tormentor",
+
     "relief": "relief",
     "bravery": "bravery",
     "distress": "distress",
