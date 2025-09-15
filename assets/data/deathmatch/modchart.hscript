@@ -37,7 +37,7 @@ if (step == 1661){
         FlxG.camera.flash(0xFFFFFF, 1.6);
             }
 if (step == 1661){
-    switchCharacter('bf-corrupted-glowing', 'boyfriend');
+    switchCharacter('bf-corrupted3', 'boyfriend');
             }
 if (step == 2168){
         FlxG.camera.flash(0xFFFFFF, 2);

@@ -34,5 +34,47 @@
   "tankman": {
     "like":"tankman",
     "defaultGraphics": true
+  },
+  
+  
+  "bf-corrupted": {
+    "like":"bf-corrupted",
+    "defaultGraphics": false
+  },
+  "pico-uncorrupted": {
+    "like":"pico-uncorrupted",
+    "defaultGraphics": false
+  },
+  "gf-corrupted": {
+    "like":"gf-corrupted",
+    "defaultGraphics": false
+  },
+  "spooky-uncorrupted": {
+    "like":"spooky-uncorrupted",
+    "defaultGraphics": false
+  },
+  "pico-corrupted": {
+    "like":"pico-corrupted",
+    "defaultGraphics": false
+  },
+  "mom-uncorrupted": {
+    "like":"mom-uncorrupted",
+    "defaultGraphics": false
+  },
+  "senpai-corrupted": {
+    "like":"senpai-corrupted",
+    "defaultGraphics": false
+  },
+  "dad-uncorrupted": {
+    "like":"dad-uncorrupted",
+    "defaultGraphics": false
+  },
+  "no-gf": {
+    "like":"no-gf",
+    "defaultGraphics": false
+  },
+  "soul-bf": {
+    "like":"soul-bf",
+    "defaultGraphics": false
   }
 }

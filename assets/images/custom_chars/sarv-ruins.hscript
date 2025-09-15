@@ -33,7 +33,7 @@ function init(char) {
     char.camOffsetX = 100;
     char.midpointX = 0;
     char.midpointY = 0;
-    char.setGraphicSize(Std.int(char.width * 0.6));
+    char.setGraphicSize(Std.int(char.width * 0.8));
 }
 portraitOffset = [0, 0];
 dadVar = 4.0;

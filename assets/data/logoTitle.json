@@ -1,9 +1,9 @@
 {
     "curName": "logo bumpin",
-    "curX": -150,
-    "curY": -100,
+    "curX": 135, // -izquierda +derecha
+    "curY": -20, // -arriba +abajo
     "curFPS": 24,
     "isPixel": false,
-    "shouldScale": false,
-    "curScale": 1
+    "shouldScale": true,
+    "curScale": 1.1
 }
