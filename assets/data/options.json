@@ -27,5 +27,5 @@
     "allowFreeplay": true,
     "allowDonate": false,
     "fpsCap": 60,
-    "titleToggle": false
+    "titleToggle": true
 }

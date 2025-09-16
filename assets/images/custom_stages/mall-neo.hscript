@@ -1,0 +1,108 @@
+var bum;
+var upperBop;
+var upperBop2;
+var satan;
+function start(song) {
+	setDefaultZoom(0.7);
+
+
+    var bg = new FlxSprite(-1000, -500).loadGraphic(hscriptPath + 'sky.png');
+    bg.scrollFactor.set(0.2, 0.2);
+    bg.antialiasing = true;
+    bg.setGraphicSize(Std.int(0.8 * bg.width));
+    bg.updateHitbox();
+    addSprite(bg, BEHIND_ALL);
+
+    var bgEscal = new FlxSprite(-1100, -600).loadGraphic(hscriptPath + 'buildings.png');
+
+	bgEscal.setGraphicSize(Std.int(bgEscal.width * 0.9));
+	bgEscal.scrollFactor.set(0.3, 0.3);
+	bgEscal.updateHitbox();
+	bgEscal.antialiasing = true;
+	addSprite(bgEscal, BEHIND_ALL);
+
+    upperBop = new MetroSprite(300, -90,true);
+    upperBop.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'FireworkNeo.png', hscriptPath + 'FireworkNeo.xml');
+    upperBop.animation.addByPrefix("idle", "Week 5 Firework", 34, false);
+    upperBop.animation.play("idle");
+	upperBop.setGraphicSize(Std.int(upperBop.width * 1.5));
+	upperBop.scrollFactor.set(0.33, 0.33);
+	upperBop.antialiasing = true;
+	upperBop.updateHitbox();
+	addSprite(upperBop, BEHIND_ALL);
+
+    upperBop2 = new MetroSprite(300, -90,true);
+    upperBop2.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'NEO_Fireworks.png', hscriptPath + 'NEO_Fireworks.xml');
+    upperBop2.animation.addByPrefix("idle", "Week 5 Firework Blue", 34, false);
+    upperBop2.animation.play("idle");
+	upperBop2.setGraphicSize(Std.int(upperBop2.width * 1.6));
+	upperBop2.scrollFactor.set(0.33, 0.33);
+	upperBop2.antialiasing = true;
+	upperBop2.updateHitbox();
+	addSprite(upperBop2, BEHIND_ALL);
+
+    var snow = new FlxSprite(-800, -600).loadGraphic(hscriptPath + 'mainstage.png');
+    snow.setGraphicSize(Std.int(snow.width * 1.5));
+    snow.antialiasing = true;
+    addSprite(snow, BEHIND_ALL);
+
+    bum = new MetroSprite(340, 150, true);
+    bum.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'CrowdRight.png', hscriptPath + 'CrowdRight.xml');
+    bum.animation.addByPrefix("idle", "CROWD RIGHT", 24, false);
+    bum.antialiasing = true;
+    bum.setGraphicSize(Std.int(bum.width * 0.99));
+    addSprite(bum, BEHIND_NONE);
+
+    satan = new MetroSprite(-820, 80, true);
+    satan.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'CrowdLeft.png', hscriptPath + 'CrowdLeft.xml');
+    satan.animation.addByPrefix("idle", "CROWD LEFT", 24, false);
+    satan.antialiasing = true;
+    satan.setGraphicSize(Std.int(satan.width * 0.99));
+    addSprite(satan, BEHIND_ALL);
+    boyfriend.x += 400;
+    getHaxeActor("bf").followCamY -= 100;
+    getHaxeActor("bf").followCamX -= 100;
+    
+}
+
+
+function beatHit(beat)
+{
+    satan.dance();
+    bum.dance();
+    upperBop.dance();
+    upperBop2.dance();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

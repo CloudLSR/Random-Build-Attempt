@@ -31,7 +31,15 @@
     "distress": "distress",
     "xenophobia": "distress",
     "killer": "distress",
+    "unfinished": "unfinished",
+    "stress": "stress",
     "warzone": "warzone",
+    "warzone2": "warzone2",
+    "paranoia": "paranoia",
     "ruins": "ruins",
-    "kapi": "kapi"
+    "monika2": "monika2",
+    "kapi": "kapi",
+    "zchool": "zchool",
+
+    "mall-neo": "mall-neo"
 }

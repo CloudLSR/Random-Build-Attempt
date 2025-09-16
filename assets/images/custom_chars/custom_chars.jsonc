@@ -316,7 +316,7 @@
   },
 
 
-// DISTRESS
+// REIMAGINED
   "pico-distress": {
     "like": "pico-distress",
     "icons": [0,1,24],
@@ -344,7 +344,7 @@
   },
 
 
-// RUINS
+// EXPANDED
   "spooky-ruins": {
     "like": "spooky-ruins",
     "icons": [0,1,24],
@@ -357,7 +357,7 @@
   },
 
 
-// WOCKY
+// VS KAPI
   "kapi-wocky": {
     "like": "kapi-wocky",
     "icons": [0,1,24],
@@ -375,7 +375,7 @@
   },
 
 
-// BRAVERY
+// UNCORRUPTED
   "speaker-bravery": {
     "like": "speaker-bravery",
     "icons": [0,1,24],
@@ -391,9 +391,6 @@
     "icons": [0,1,24],
     "colors": ["#E68B29"]
   },
-
-
-// RELIEF
   "spooky-relief": {
     "like": "spooky-relief",
     "icons": [0,1,24],
@@ -401,7 +398,33 @@
   },
 
 
-// WARZONE
+// FIGHTHING BACK
+  "spooky-unfinished": {
+    "like": "spooky-unfinished",
+    "icons": [0,1,24],
+    "colors": ["#160224"]
+  },
+  "bf-unfinished": {
+    "like": "bf-unfinished",
+    "icons": [0,1,24],
+    "colors": ["#160224"]
+  },
+
+
+// VS MONIKA
+  "bf-monika": {
+    "like": "bf-monika",
+    "icons": [0,1,24],
+    "colors": ["#EABCFC"]
+  },
+  "monika-day2": {
+    "like": "monika-day2",
+    "icons": [0,1,24],
+    "colors": ["#EABCFC"]
+  },
+
+
+// THE LAST STAND
   "pico-warzone": {
     "like": "pico-warzone",
     "icons": [0,1,24],
@@ -412,9 +435,67 @@
     "icons": [0,1,24],
     "colors": ["#DB32B4"]
   },
+  "bf-stress": {
+    "like": "bf-stress",
+    "icons": [0,1,24],
+    "colors": ["#704827"]
+  },
+  "tankman-stress": {
+    "like": "tankman-stress",
+    "icons": [0,1,24],
+    "colors": ["#704827"]
+  },
+  "bf-warzone2": {
+    "like": "bf-warzone2",
+    "icons": [0,1,24],
+    "colors": ["#654E66"]
+  },
+  "tankman-warzone2": {
+    "like": "tankman-warzone2",
+    "icons": [0,1,24],
+    "colors": ["#654E66"]
+  },
+  "dad-paranoia": {
+    "like": "dad-paranoia",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "tankman-paranoia": {
+    "like": "tankman-stress",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+
+
+// MAB CORRUPTION
+  "pico-school": {
+    "like": "pico-school",
+    "icons": [0,1,24],
+    "colors": ["#C2305C"]
+  },
+  "bf-school": {
+    "like": "bf-school",
+    "icons": [0,1,24],
+    "colors": ["#C2305C"]
+  },
 
   
 // EXTRA
+  "bf-neo": {
+    "like": "bf-neo",
+    "icons": [0,1,24],
+    "colors": ["#5AED5A"]
+  },
+  "gf-neo": {
+    "like": "gf-neo",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "parents-neo": {
+    "like": "parents-neo",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
   "no-gf": {
     "like": "gf",
     "icons": [0,1,24],

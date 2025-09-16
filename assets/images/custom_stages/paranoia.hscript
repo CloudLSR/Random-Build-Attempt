@@ -1,0 +1,47 @@
+function start(song) {
+    var bg = new FlxSprite(-500, -200).loadGraphic(hscriptPath + 'backhahaha.png');
+    bg.antialiasing = true;
+    bg.scale.set(1.1, 1.1);
+    addSprite(bg, BEHIND_ALL);
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+    setDefaultZoom(0.88);
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+    setDefaultZoom(0.88);
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

@@ -2,11 +2,11 @@
     // animation name of the little shit (string)
     "curName": "gfDance",
     // the x offset (float)
-    "curX": 500,
+    "curX": -100,
     // the y offset (float)
-    "curY": 50,
+    "curY": 0,
     // the FPS of the animation (float)
-    "curFPS": 24,
+    "curFPS": 30,
     // if it should scale the little shit (boolean)
     "shouldScale": false,
     // what to scale it by, only works if shouldScale is true (float, converted to int, rounded by 0)
@@ -22,5 +22,5 @@
     // if you set it to "gfIdle", it plays like a regular gf idle animation
     // if you set it to "bfIdle", it plays like a regular bf idle animation
     // if you set it to "loopIdle", it plays like a regular bf idle animation, but looped
-    "animationType": "gfIdle"
+    "animationType": "loopIdle"
 }

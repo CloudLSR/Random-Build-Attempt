@@ -1,0 +1,64 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+	char.animation.addByPrefix('idle', 'Duet Idle', 24, false);
+	char.animation.addByPrefix('singUP', 'Duet Monika UP NOTE', 24, false);
+	char.animation.addByPrefix('singLEFT', 'Duet Monika LEFT NOTE', 24, false);
+	char.animation.addByPrefix('singRIGHT', 'Duet Monika RIGHT NOTE', 24, false);
+	char.animation.addByPrefix('singDOWN', 'Duet Monika DOWN NOTE', 24, false);
+
+	char.animation.addByPrefix('singUP-alt', 'Duet Senpai UP NOTE', 24, false);
+	char.animation.addByPrefix('singDOWN-alt', 'Duet Senpai DOWN NOTE', 24, false);
+	char.animation.addByPrefix('singLEFT-alt', 'Duet Senpai LEFT NOTE', 24, false);
+	char.animation.addByPrefix('singRIGHT-alt', 'Duet Senpai RIGHT NOTE', 24, false);
+
+	char.animation.addByPrefix('cutsceneidle', 'cutscene idle', 24, false);
+	char.animation.addByPrefix('cutscenetransition', 'cutscene transition', 24, false);
+    
+
+    char.addOffset('idle', 0, 0);
+    char.addOffset('singUP', 0, 0);
+    char.addOffset('singRIGHT', 0, 0);
+    char.addOffset('singLEFT', 0, 0);
+    char.addOffset('singDOWN', 0, 0);
+
+    char.addOffset('singUP-alt', 12, 0);
+    char.addOffset('singRIGHT-alt', 0, 0);
+    char.addOffset('singLEFT-alt', 0, 0);
+    char.addOffset('singDOWN-alt', 0, 0);
+
+    char.addOffset('cutsceneidle', 0, 0);
+    char.addOffset('cutscenetransition', 0, 0);
+
+    char.playAnim('idle');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = 150;
+    char.enemyOffsetY = 360;
+    char.camOffsetX = 370;
+    char.camOffsetY = 300;
+    char.followCamX = -50;
+    char.followCamY = -350;
+
+    char.setGraphicSize(Std.int(char.width * 6));
+    char.updateHitbox();
+    char.antialiasing = false;
+    char.isPixel = true;
+}
+portraitOffset = [0, 0];
+dadVar = 4.0;
+isPixel = true;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    char.playAnim('idle');
+}
+trace("done");
