@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Tormentor.png"><SubTexture name="Tormentor BG0000" x="0" y="0" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0001" x="3133" y="0" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0002" x="6266" y="0" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0003" x="9399" y="0" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0004" x="0" y="1825" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0005" x="3133" y="1825" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0006" x="6266" y="1825" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0007" x="9399" y="1825" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0008" x="0" y="3650" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0009" x="3133" y="3650" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0010" x="6266" y="3650" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0011" x="9399" y="3650" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0012" x="0" y="5475" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+<SubTexture name="Tormentor BG0013" x="3133" y="5475" width="3133" height="1825" frameX="0" frameY="0" frameWidth="3133" frameHeight="1825" />
+</TextureAtlas>

@@ -1,0 +1,47 @@
+var bg;
+function start(song) {
+    bg = new FlxSprite(-700, -425);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'Tormentor.png', hscriptPath + 'Tormentor.xml');
+    bg.frames = tex;
+    bg.animation.addByPrefix("idle", "Tormentor BG", 4, true);
+    bg.animation.play("idle");
+    bg.setGraphicSize(Std.int(bg.width * 0.8));
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+}
+
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+setDefaultZoom(0.86);
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+setDefaultZoom(0.86);
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

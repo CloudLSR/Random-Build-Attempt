@@ -1,0 +1,212 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 133){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 134){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    currentPlayState.health -= 0.65;
+            }
+if (step == 254){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 255){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    currentPlayState.health -= 0.7;
+            }
+if (step == 290){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 291){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.7;
+            }
+if (step == 417){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 418){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.75;
+            }
+if (step == 657){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 658){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.9;
+            }
+if (step == 864){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 865){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 1057){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1058){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 1153){
+    FlxG.camera.flash(0xFFFFFF, 2.0);
+            }
+if (step == 1154){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+            }
+if (step == 1283){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1284){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 1413){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1414){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 1666){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1667){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 1738){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1739){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.4;
+            }
+if (step == 1744){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1745){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.4;
+            }
+if (step == 1759){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1760){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.9;
+            }
+if (step == 1857){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1858){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 1988){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1989){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 2048){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 2049){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 2145){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 2146){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 2261){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 2262){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 0.8;
+            }
+if (step == 2304){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 2305){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 1.5;
+            }
+if (step == 2438){
+    FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 2439){
+    FlxG.sound.play(FNFAssets.getSound('assets/images/custom_stages/fighting/shooters'  +TitleState.soundExt));
+    boyfriend.animation.play('hey');
+    currentPlayState.health -= 1.2;
+            }
+if (step == 1153){
+    switchCharacter('pico-fighting2', 'dad');
+ }; 
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

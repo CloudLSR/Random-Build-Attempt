@@ -1,2 +1,5 @@
 bf-corrupted3
+pico-corrupted2
+spooky-corrupted
+mom-corrupted
 dad-day3

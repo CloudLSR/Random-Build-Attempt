@@ -91,6 +91,11 @@
         "name": "Tormentor",
         "character": "soul-bf",
         "week": 0
+      },
+      {
+        "name": "Neuroses",
+        "character": "soul-bf2",
+        "week": 0
       }
     ]
   },
@@ -121,6 +126,21 @@
       {
         "name": "Killer",
         "character": "spooky-killer",
+        "week": 0
+      },
+      {
+        "name": "Banishment",
+        "character": "spirit-banishment",
+        "week": 0
+      },
+      {
+        "name": "Eerie!",
+        "character": "spooky-eerie",
+        "week": 0
+      },
+      {
+        "name": "Blammed-Remix",
+        "character": "bf-fighting",
         "week": 0
       },
       {
@@ -164,6 +184,16 @@
         "week": 0
       },
       {
+        "name": "Tormenrrot",
+        "character": "soul-bf-carrot",
+        "week": 0
+      },
+      {
+        "name": "Chiller-B-Side",
+        "character": "spooky-day3-bside-old",
+        "week": 0
+      },
+      {
         "name": "Nightmare-Of-Roses",
         "character": "monika-day2",
         "week": 0
@@ -180,6 +210,11 @@
       {
         "name": "Cocoa-Neo",
         "character": "parents-neo",
+        "week": 0
+      },
+      {
+        "name": "Fang",
+        "character": "gf-fang",
         "week": 0
       }
     ]

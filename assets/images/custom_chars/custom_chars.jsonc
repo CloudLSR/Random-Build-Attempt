@@ -301,10 +301,40 @@
     "icons": [0,1,24],
     "colors": ["#149DFF"]
   },
+  "mom-corrupted": {
+    "like": "mom-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#FF95C5"]
+  },
+  "spooky-corrupted": {
+    "like": "spooky-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#FD9013"]
+  },
 
   
 // SOUL BF
   "bf-look": {
+    "like": "bf-look",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-nervous": {
+    "like": "bf-look",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-scared": {
+    "like": "bf-look",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-scared2": {
+    "like": "bf-scared2",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "bf-sad": {
     "like": "bf-look",
     "icons": [0,1,24],
     "colors": ["#149DFF"]
@@ -314,9 +344,24 @@
     "icons": [0,1,24],
     "colors": ["#8016CC"]
   },
+  "soul-bf2": {
+    "like": "soul-bf",
+    "icons": [0,1,24],
+    "colors": ["#8016CC"]
+  },
+  "soul-bf-guitar": {
+    "like": "soul-bf-guitar",
+    "icons": [0,1,24],
+    "colors": ["#8016CC"]
+  },
 
 
 // REIMAGINED
+  "spooky-eerie": {
+    "like": "spooky-eerie",
+    "icons": [0,1,24],
+    "colors": ["#99FF7D"]
+  },
   "pico-distress": {
     "like": "pico-distress",
     "icons": [0,1,24],
@@ -341,6 +386,16 @@
     "like": "spooky-distress",
     "icons": [0,1,24],
     "colors": ["#FD9013"]
+  },
+  "bf-pixel-banishment": {
+    "like": "bf-pixel-banishment",
+    "icons": [0,1,24],
+    "colors": ["#E6E6E6"]
+  },
+  "spirit-banishment": {
+    "like": "spirit-banishment",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
   },
 
 
@@ -398,7 +453,22 @@
   },
 
 
-// FIGHTHING BACK
+// FIGHTING BACK
+  "bf-fighting": {
+    "like": "bf-fighting",
+    "icons": [0,1,24],
+    "colors": ["#6E6E6E"]
+  },
+  "pico-fighting": {
+    "like": "pico-fighting",
+    "icons": [0,1,24],
+    "colors": ["#6E6E6E"]
+  },
+  "pico-fighting2": {
+    "like": "pico-fighting",
+    "icons": [0,1,24],
+    "colors": ["#6E6E6E"]
+  },
   "spooky-unfinished": {
     "like": "spooky-unfinished",
     "icons": [0,1,24],
@@ -479,6 +549,67 @@
     "colors": ["#C2305C"]
   },
 
+
+// B-SIDE
+  "bf-corrupted-bside-old": {
+    "like": "bf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "gf-corrupted-bside-old": {
+    "like": "gf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "spooky-day3-bside-old": {
+    "like": "spooky-day1",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+
+// TORMENTOR VARIANTS
+  "bf-look-carrot": {
+    "like": "bf-look-carrot",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "soul-bf-carrot": {
+    "like": "soul-bf-carrot",
+    "icons": [0,1,24],
+    "colors": ["#8016CC"]
+  },
+  "soul-bf-hd": {
+    "like": "soul-bf-hd",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "bf-look-facu": {
+    "like": "bf-look",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "soul-bf-facu": {
+    "like": "soul-bf-facu",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "soul-bf-kitecek": {
+    "like": "soul-bf-kitecek",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "ale": {
+    "like": "ale",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "soul-ale": {
+    "like": "soul-ale",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
   
 // EXTRA
   "bf-neo": {
@@ -493,6 +624,29 @@
   },
   "parents-neo": {
     "like": "parents-neo",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "bf-fang": {
+    "like": "bf-fang",
+    "icons": [0,1,24],
+    "colors": ["#5AED5A"]
+  },
+  "gf-fang": {
+    "like": "gf-fang",
+    "icons": [0,1,24],
+    "colors": ["#5AED5A"]
+  },
+
+
+
+  "bf-b3": {
+    "like": "bf-b3",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "bf-bside-old": {
+    "like": "bf",
     "icons": [0,1,24],
     "colors": ["#7E6AA1"]
   },

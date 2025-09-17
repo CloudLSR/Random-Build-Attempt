@@ -25,21 +25,26 @@
     "stage2": "stage",
     "stage3": "stage3",
     "tormentor": "tormentor",
+    "neuroses": "neuroses",
 
     "relief": "relief",
     "bravery": "bravery",
     "distress": "distress",
     "xenophobia": "distress",
     "killer": "distress",
+    "banishment": "banishment",
+    "fighting": "fighting",
     "unfinished": "unfinished",
     "stress": "stress",
     "warzone": "warzone",
     "warzone2": "warzone2",
     "paranoia": "paranoia",
     "ruins": "ruins",
-    "monika2": "monika2",
     "kapi": "kapi",
     "zchool": "zchool",
+    "tormenrrot": "tormenrrot",
+    "monika2": "monika2",
 
-    "mall-neo": "mall-neo"
+    "mall-neo": "mall-neo",
+    "fang": "fang"
 }

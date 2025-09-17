@@ -1,0 +1,74 @@
+var bg;
+var city;
+var streetBehind;
+function start(song) {
+    var bg = new FlxSprite(-100).loadGraphic(hscriptPath + 'sky.png');
+    bg.scrollFactor.set(0.1, 0.1);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+    trace("poyo");
+    var city = new FlxSprite(-10).loadGraphic(hscriptPath + 'city.png');
+    trace("woozy");
+    trace(":woozy-face:");
+    city.scrollFactor.set(0.3, 0.3);
+    city.antialiasing = true;
+    city.scale.set(0.85, 0.85);
+    city.updateHitbox();
+    trace(":POG:");
+    addSprite(city, BEHIND_ALL);
+    var streetBehind = new FlxSprite(-40, 50).loadGraphic(hscriptPath + 'behindTrain.png');
+    streetBehind.antialiasing = true;
+    addSprite(streetBehind, BEHIND_ALL);
+    var streetBehind = new FlxSprite(-40, 50).loadGraphic(hscriptPath + 'street.png');
+    streetBehind.antialiasing = true;
+    addSprite(streetBehind, BEHIND_ALL);
+    setDefaultZoom(1.05);
+}
+
+function beatHit(beat)
+{
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+
+function doVroomVroom()
+{
+}
+
+function updateVroomVroom()
+{
+}
+
+function resetVroomVroom()
+{
+}

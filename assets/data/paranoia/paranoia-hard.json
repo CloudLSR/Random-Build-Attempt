@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "dadl",
+		"player1": "dad-paranoia",
 		"notes": [
 			{
 				"typeOfSection": 0,
@@ -6734,11 +6734,10 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "T7",
+		"player2": "tankman-paranoia",
 		"convertMineToNuke": false,
 		"mania": 0,
 		"isHey": false,
-		"player3": "backhahaha",
 		"isCheer": null,
 		"cutsceneType": "none",
 		"isSpooky": false,
@@ -6749,11 +6748,11 @@
 		"sectionLengths": [],
 		"forceJudgements": false,
 		"preferredNoteAmount": 4,
-		"uiType": "normal",
-		"stage": "stage",
+		"uiType": "corruption",
+		"stage": "paranoia",
 		"sections": 0,
 		"needsVoices": true,
-		"gf": "csteve",
+		"gf": "no-gf",
 		"bpm": 189
 	}
 }

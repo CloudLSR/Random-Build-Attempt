@@ -1,0 +1,105 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 291){
+    switchCharacter('soul-bf2', 'dad');
+            }
+if (step == 357){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 382){
+    switchCharacter('soul-bf2', 'dad');
+            }
+if (step == 444){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 465){
+    switchCharacter('soul-bf2', 'dad');
+            }
+if (step == 530){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 557){
+    switchCharacter('soul-bf2', 'dad');
+            }
+if (step == 616){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 642){
+    switchCharacter('soul-bf2', 'dad');
+            }
+if (step == 699){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 719){
+    switchCharacter('soul-bf2', 'dad');
+            }
+if (step == 786){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 865){
+    switchCharacter('bf-nervous', 'boyfriend');
+            }
+if (step == 1824){
+    switchCharacter('soul-bf-guitar', 'dad');
+    switchCharacter('bf-look', 'boyfriend');
+            }
+if (step == 1938){
+    switchCharacter('soul-bf', 'dad');
+            }
+if (step == 2118){
+    switchCharacter('no-gf', 'dad');
+            }
+if (step == 2132){
+    switchCharacter('bf-nervous', 'boyfriend');
+            }
+if (step == 2280){
+    switchCharacter('bf-scared', 'boyfriend');
+            }
+if (step == 2510){
+    switchCharacter('bf-scared2', 'boyfriend');
+}
+if (step == 800){
+        FlxG.camera.flash(0xFFFFFF, 1);
+ }; 
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

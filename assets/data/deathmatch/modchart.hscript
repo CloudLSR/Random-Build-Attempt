@@ -19,19 +19,19 @@ if (step == 767){
         FlxG.camera.flash(0xFFFFFF, 1.6);
             }
 if (step == 767){
-    switchCharacter('pico', 'boyfriend');
+    switchCharacter('pico-corrupted2', 'boyfriend');
             }
 if (step == 1020){
         FlxG.camera.flash(0xFFFFFF, 1.6);
             }
 if (step == 1020){
-    switchCharacter('spooky', 'boyfriend');
+    switchCharacter('spooky-corrupted', 'boyfriend');
             }
 if (step == 1405){
         FlxG.camera.flash(0xFFFFFF, 1.6);
             }
 if (step == 1405){
-    switchCharacter('mom', 'boyfriend');
+    switchCharacter('mom-corrupted', 'boyfriend');
             }
 if (step == 1661){
         FlxG.camera.flash(0xFFFFFF, 1.6);

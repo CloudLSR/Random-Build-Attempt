@@ -1,0 +1,304 @@
+var Ov;
+var Ov2;
+var Ov3;
+var Ov4;
+var Ov5;
+var Ov6;
+var Ov7;
+var Ov8;
+var Ov9;
+var bg;
+var bgevil;
+var bgod;
+function start(song) {
+    Ov = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit.png', hscriptPath + 'overlayShit.xml');
+    Ov.frames = tex;
+    Ov.setGraphicSize(Std.int(Ov.width * 0.8));
+    Ov.animation.addByPrefix("idle", "Spikes", 21, true);
+    Ov.animation.play("idle");
+    Ov.antialiasing = true;
+    Ov.screenCenter();
+    Ov.cameras = [camHUD];
+    addSprite(Ov, BEHIND_NONE);
+    Ov2 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit2.png', hscriptPath + 'overlayShit2.xml');
+    Ov2.frames = tex;
+    Ov2.setGraphicSize(Std.int(Ov2.width * 0.8));
+    Ov2.animation.addByPrefix("idle", "Spikes", 21, true);
+    Ov2.animation.play("idle");
+    Ov2.antialiasing = true;
+    Ov2.screenCenter();
+    Ov2.cameras = [camHUD];
+    addSprite(Ov2, BEHIND_NONE);
+    Ov3 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit3.png', hscriptPath + 'overlayShit3.xml');
+    Ov3.frames = tex;
+    Ov3.setGraphicSize(Std.int(Ov3.width * 0.8));
+    Ov3.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov3.animation.play("idle");
+    Ov3.antialiasing = true;
+    Ov3.screenCenter();
+    Ov3.cameras = [camHUD];
+    addSprite(Ov3, BEHIND_NONE);
+    Ov4 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit4.png', hscriptPath + 'overlayShit4.xml');
+    Ov4.frames = tex;
+    Ov4.setGraphicSize(Std.int(Ov4.width * 0.8));
+    Ov4.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov4.animation.play("idle");
+    Ov4.antialiasing = true;
+    Ov4.screenCenter();
+    Ov4.cameras = [camHUD];
+    addSprite(Ov4, BEHIND_NONE);
+    Ov5 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit5.png', hscriptPath + 'overlayShit5.xml');
+    Ov5.frames = tex;
+    Ov5.setGraphicSize(Std.int(Ov5.width * 0.8));
+    Ov5.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov5.animation.play("idle");
+    Ov5.antialiasing = true;
+    Ov5.screenCenter();
+    Ov5.cameras = [camHUD];
+    addSprite(Ov5, BEHIND_NONE);
+    Ov6 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit6.png', hscriptPath + 'overlayShit6.xml');
+    Ov6.frames = tex;
+    Ov6.setGraphicSize(Std.int(Ov6.width * 0.8));
+    Ov6.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov6.animation.play("idle");
+    Ov6.antialiasing = true;
+    Ov6.screenCenter();
+    Ov6.cameras = [camHUD];
+    addSprite(Ov6, BEHIND_NONE);
+    Ov7 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit7.png', hscriptPath + 'overlayShit7.xml');
+    Ov7.frames = tex;
+    Ov7.setGraphicSize(Std.int(Ov7.width * 0.8));
+    Ov7.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov7.animation.play("idle");
+    Ov7.antialiasing = true;
+    Ov7.screenCenter();
+    Ov7.cameras = [camHUD];
+    addSprite(Ov7, BEHIND_NONE);
+    Ov8 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit8.png', hscriptPath + 'overlayShit8.xml');
+    Ov8.frames = tex;
+    Ov8.setGraphicSize(Std.int(Ov8.width * 0.8));
+    Ov8.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov8.animation.play("idle");
+    Ov8.antialiasing = true;
+    Ov8.screenCenter();
+    Ov8.cameras = [camHUD];
+    addSprite(Ov8, BEHIND_NONE);
+    Ov9 = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'overlayShit9.png', hscriptPath + 'overlayShit9.xml');
+    Ov9.frames = tex;
+    Ov9.setGraphicSize(Std.int(Ov9.width * 0.8));
+    Ov9.animation.addByPrefix("idle", "Spikes", 65, true);
+    Ov9.animation.play("idle");
+    Ov9.antialiasing = true;
+    Ov9.screenCenter();
+    Ov9.cameras = [camHUD];
+    addSprite(Ov9, BEHIND_NONE);
+    bg = new FlxSprite(-500, -325);
+    bg.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'wall.png', hscriptPath + 'wall.xml');
+    bg.animation.addByPrefix("idle", "background 2 instance ", 24, true);    
+    bg.animation.play("idle", true);
+    bg.scrollFactor.set(0.8, 0.9);
+    bg.scale.set(1, 1);
+    addSprite(bg, BEHIND_ALL);
+	tv = new FlxSprite(282, -40);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'tv2.png', hscriptPath + 'tv2.xml');
+    tv.frames = tex;
+    tv.setGraphicSize(Std.int(tv.width * 1.02));
+    tv.animation.addByPrefix("static", "evil Bf Static Anim", 24, true);
+    tv.antialiasing = true;
+    addSprite(tv, BEHIND_ALL);
+    tv.animation.play("static");
+
+    bgevil = new FlxSprite(-500, -325);
+    bgevil.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'wall2.png', hscriptPath + 'wall2.xml');
+    bgevil.animation.addByPrefix("idle", "background 2", 24, true);    
+    bgevil.animation.play("idle", true);
+    bgevil.scrollFactor.set(0.8, 0.9);
+    bgevil.scale.set(1, 1);
+
+    bgod = new FlxSprite(-500, -325);
+    bgod.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'wall3.png', hscriptPath + 'wall3.xml');
+    bgod.animation.addByPrefix("idle", "background 2", 24, true);    
+    bgod.animation.play("idle", true);
+    bgod.scrollFactor.set(0.8, 0.9);
+    bgod.scale.set(1, 1);
+	tv2 = new FlxSprite(282, -40);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'tv.png', hscriptPath + 'tv.xml');
+    tv2.frames = tex;
+    tv2.setGraphicSize(Std.int(tv.width * 1.02));
+    tv2.animation.addByPrefix("static", "evil Bf Static Anim", 24, true);
+    tv2.antialiasing = true;
+    addSprite(tv2, BEHIND_ALL);
+    tv2.animation.play("static");
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 1){
+    removeSprite(Ov2, BEHIND_NONE);
+    removeSprite(Ov3, BEHIND_NONE);
+    removeSprite(Ov4, BEHIND_NONE);
+    removeSprite(Ov5, BEHIND_NONE);
+    removeSprite(Ov6, BEHIND_NONE);
+    removeSprite(Ov7, BEHIND_NONE);
+    removeSprite(Ov8, BEHIND_NONE);
+    removeSprite(Ov9, BEHIND_NONE);
+}
+if (step == 255){
+    addSprite(Ov3, BEHIND_NONE);
+}
+if (step == 264){
+    removeSprite(Ov3, BEHIND_NONE);
+}
+if (step == 546){
+    addSprite(Ov4, BEHIND_NONE);
+}
+if (step == 555){
+    removeSprite(Ov4, BEHIND_NONE);
+}
+if (step == 799){
+    removeSprite(Ov, BEHIND_NONE);
+    addSprite(Ov2, BEHIND_NONE);
+    removeSprite(bg);
+    addSprite(bgevil, BEHIND_NONE);
+    removeSprite(tv2);
+}
+if (step == 835){
+    addSprite(Ov5, BEHIND_NONE);
+}
+if (step == 844){
+    removeSprite(Ov5, BEHIND_NONE);
+}
+if (step == 927){
+    addSprite(Ov6, BEHIND_NONE);
+}
+if (step == 937){
+    removeSprite(Ov6, BEHIND_NONE);
+}
+if (step == 1185){
+    removeSprite(Ov2, BEHIND_NONE);
+    removeSprite(bgevil);
+    addSprite(bg, BEHIND_NONE);
+}
+if (step == 1190){
+    addSprite(Ov, BEHIND_NONE);	
+}
+if (step == 1249){	
+    removeSprite(Ov, BEHIND_NONE);
+    removeSprite(bg);
+    addSprite(bgevil, BEHIND_NONE);
+}
+if (step == 1278){
+    addSprite(Ov7, BEHIND_NONE);
+}
+if (step == 1288){
+    removeSprite(Ov7, BEHIND_NONE);
+}
+if (step == 1310){
+    addSprite(Ov2, BEHIND_NONE);
+}
+if (step == 1435){
+    addSprite(Ov8, BEHIND_NONE);
+}
+if (step == 1446){
+    removeSprite(Ov8, BEHIND_NONE);
+}
+if (step == 1782){
+    addSprite(Ov9, BEHIND_NONE);
+}
+if (step == 1791){
+    removeSprite(Ov9, BEHIND_NONE);
+}
+if (step == 289){
+FlxG.camera.flash(0xFFFFFFFF, 1);		
+}
+if (step == 544){
+FlxG.camera.flash(0xFFFFFFFF, 1);		
+}
+if (step == 1827){
+FlxG.camera.flash(0xFFFFFFFF, 0.2);		
+}
+if (step == 865){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 969){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 992){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 1056){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 1249){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 1568){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 1824){
+FlxG.camera.flash(0x999999, 0.2);
+}
+if (step == 799){
+FlxG.camera.flash(0x000000, 1.5);	
+}
+if (step == 1185){
+FlxG.camera.flash(0x000000, 1.5);	
+}
+if (step == 1249){
+FlxG.camera.flash(0x000000, 1.5);	
+}
+if (step == 2080){
+FlxG.camera.flash(0x000000, 3);	
+}
+if (step == 1960){
+FlxG.camera.flash(0x999999, 0.2);	
+}
+if (step == 2080){
+    removeSprite(Ov2, BEHIND_NONE);	
+    removeSprite(bgevil);
+    addSprite(bgod, BEHIND_NONE);
+    removeSprite(tv);
+    addSprite(tv2, BEHIND_NONE);
+    removeSprite(tv2);
+}
+}
+
+function playerTwoTurn()
+{
+setDefaultZoom(0.86);
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+setDefaultZoom(0.86);
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+
