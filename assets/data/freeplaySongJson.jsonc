@@ -96,6 +96,11 @@
         "name": "Neuroses",
         "character": "soul-bf2",
         "week": 0
+      },
+      {
+        "name": "Discharge",
+        "character": "soul-bf-guitar",
+        "week": 0
       }
     ]
   },
@@ -103,6 +108,11 @@
     {
     "name": "Fanmades",
     "songs": [
+      {
+        "name": "Shiver",
+        "character": "gf",
+        "week": 0
+      },
       {
         "name": "Relief",
         "character": "spooky-relief",
@@ -114,8 +124,18 @@
         "week": 0
       },
       {
+        "name": "Synergy",
+        "character": "gf",
+        "week": 0
+      },
+      {
         "name": "Distress",
         "character": "spooky-distress",
+        "week": 0
+      },
+      {
+        "name": "Distress-Bside",
+        "character": "gf",
         "week": 0
       },
       {
@@ -134,6 +154,11 @@
         "week": 0
       },
       {
+        "name": "Bedeviled",
+        "character": "dad-bedeviled",
+        "week": 0
+      },
+      {
         "name": "Eerie!",
         "character": "spooky-eerie",
         "week": 0
@@ -146,6 +171,11 @@
       {
         "name": "Unfinished",
         "character": "spooky-unfinished",
+        "week": 0
+      },
+      {
+        "name": "Thantophobia",
+        "character": "pico-thanto",
         "week": 0
       },
       {
@@ -184,18 +214,73 @@
         "week": 0
       },
       {
-        "name": "Tormenrrot",
-        "character": "soul-bf-carrot",
+        "name": "Nightmare-Of-Roses",
+        "character": "monika-day2",
         "week": 0
       },
       {
-        "name": "Chiller-B-Side",
+        "name": "One-Shot",
+        "character": "pico-one-shot",
+        "week": 0
+      },
+      {
+        "name": "Chiller-Bside",
         "character": "spooky-day3-bside-old",
         "week": 0
       },
       {
-        "name": "Nightmare-Of-Roses",
-        "character": "monika-day2",
+        "name": "Chiller-Neo",
+        "character": "spooky-neo-day3",
+        "week": 0
+      },
+      {
+        "name": "Inexorable",
+        "character": "pico-inexorable",
+        "week": 0
+      },
+      {
+        "name": "Anguish",
+        "character": "bob-anguish",
+        "week": 0
+      },
+      {
+        "name": "Holly-Dwelling",
+        "character": "miku-holly",
+        "week": 0
+      },
+      {
+        "name": "Salvager",
+        "character": "gf",
+        "week": 0
+      },
+      {
+        "name": "Genocide-Remix",
+        "character": "gf",
+        "week": 0
+      },
+      {
+        "name": "Glitcher-Remix",
+        "character": "gf",
+        "week": 0
+      },
+      {
+        "name": "Improbable-Outset",
+        "character": "tricky-outset",
+        "week": 0
+      },
+      {
+        "name": "Deadly-Ballistic",
+        "character": "gf",
+        "week": 0
+      },
+      {
+        "name": "Deathmatch-Renx",
+        "character": "dad-day3",
+        "week": 0
+      },
+      {
+        "name": "Tormenrrot",
+        "character": "soul-bf-carrot",
         "week": 0
       }
     ]
@@ -208,6 +293,11 @@
       // the reason we use tjson is because json is hard
       // The category screen won't show up unless there are more than 1 categories
       {
+        "name": "Holiday",
+        "character": "gf-holiday",
+        "week": 0
+      },
+      {
         "name": "Cocoa-Neo",
         "character": "parents-neo",
         "week": 0
@@ -215,6 +305,36 @@
       {
         "name": "Fang",
         "character": "gf-fang",
+        "week": 0
+      },
+      {
+        "name": "Salty-Love",
+        "character": "itsumi",
+        "week": 0
+      },
+      {
+        "name": "Asereje",
+        "character": "miku-asereje",
+        "week": 0
+      },
+      {
+        "name": "Deep-Breaths",
+        "character": "yuri",
+        "week": 0
+      },
+      {
+        "name": "Machina",
+        "character": "cassette-girl",
+        "week": 0
+      },
+      {
+        "name": "Sky's-Rhapsody",
+        "character": "sky-annoyed",
+        "week": 0
+      },
+      {
+        "name": "FL-Slayer",
+        "character": "fl-chan",
         "week": 0
       }
     ]

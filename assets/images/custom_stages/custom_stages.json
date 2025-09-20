@@ -33,6 +33,7 @@
     "xenophobia": "distress",
     "killer": "distress",
     "banishment": "banishment",
+    "bedeviled": "bedeviled",
     "fighting": "fighting",
     "unfinished": "unfinished",
     "stress": "stress",
@@ -46,5 +47,6 @@
     "monika2": "monika2",
 
     "mall-neo": "mall-neo",
-    "fang": "fang"
+    "fang": "fang",
+    "salty": "stage"
 }

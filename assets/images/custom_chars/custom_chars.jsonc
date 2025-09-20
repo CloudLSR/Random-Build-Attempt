@@ -24,11 +24,6 @@
     "icons": [0,1,2],
     "colors": ["#149DFF"]
   },
-  "bulb-pixel": {
-    "like": "bf-pixel",
-    "icons": [0,1,2],
-    "colors": ["#F5E642"]
-  },
   "dad": {
     "like": "dad",
     "icons": [0,1,2,3],
@@ -108,21 +103,6 @@
     "like": "mom-car",
     "icons": [0,1,2,3],
     "colors": ["#FF95C5"]
-  },
-  "templateSenpai-hd": {
-    "like": "senpai-hd",
-    "icons": [0,1,2],
-    "colors": ["#BC7333"]
-  },
-  "templateSenpaiAngry-hd": {
-    "like": "senpai-angry-hd",
-    "icons": [0,1,2],
-    "colors": ["#BC7333"]
-  },
-  "templateSpirit-hd": {
-    "like": "spirit-hd",
-    "icons": [0,1,2],
-    "colors": ["#BC7333"]
   },
 
 
@@ -397,6 +377,22 @@
     "icons": [0,1,24],
     "colors": ["#A6A6A6"]
   },
+  "bf-bedeviled": {
+    "like": "bf-bedeviled",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "gf-bedeviled": {
+    "like": "gf-bedeviled",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "dad-bedeviled": {
+    "like": "dad-bedeviled",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+
 
 
 // EXPANDED
@@ -427,6 +423,48 @@
     "like": "bf-wocky",
     "icons": [0,1,24],
     "colors": ["#149DFF"]
+  },
+
+
+// VS MIKU
+  "miku-holly": {
+    "like": "miku-holly",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+
+
+// VS TRICKY
+  "tricky-outset": {
+    "like": "tricky-outset",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "bf-outset": {
+    "like": "bf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+  "gf-outset": {
+    "like": "gf-corrupted",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+
+
+// NEO CORRUPTION
+  "spooky-neo-day3": {
+    "like": "spooky-day1",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
+  },
+
+
+// ECLIPSED
+  "pico-inexorable": {
+    "like": "pico-inexorable",
+    "icons": [0,1,24],
+    "colors": ["#A6A6A6"]
   },
 
 
@@ -476,6 +514,16 @@
   },
   "bf-unfinished": {
     "like": "bf-unfinished",
+    "icons": [0,1,24],
+    "colors": ["#160224"]
+  },
+  "pico-thanto": {
+    "like": "pico-thanto",
+    "icons": [0,1,24],
+    "colors": ["#160224"]
+  },
+  "spooky-thanto": {
+    "like": "spooky-thanto",
     "icons": [0,1,24],
     "colors": ["#160224"]
   },
@@ -568,6 +616,37 @@
   },
 
 
+// TAKEOVER
+  "bf-one-shot": {
+    "like": "bf-one-shot",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "pico-one-shot": {
+    "like": "pico-one-shot",
+    "icons": [0,1,24],
+    "colors": ["#FFFFFF"]
+  },
+
+
+// VS BOB
+    "bob-anguish": {
+    "like": "bob-anguish",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+    "bf-anguish": {
+    "like": "bf-anguish",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+    "gf-anguish": {
+    "like": "gf-anguish",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+
 // TORMENTOR VARIANTS
   "bf-look-carrot": {
     "like": "bf-look-carrot",
@@ -627,6 +706,7 @@
     "icons": [0,1,24],
     "colors": ["#7E6AA1"]
   },
+
   "bf-fang": {
     "like": "bf-fang",
     "icons": [0,1,24],
@@ -638,8 +718,6 @@
     "colors": ["#5AED5A"]
   },
 
-
-
   "bf-b3": {
     "like": "bf-b3",
     "icons": [0,1,24],
@@ -650,8 +728,66 @@
     "icons": [0,1,24],
     "colors": ["#7E6AA1"]
   },
+
   "no-gf": {
     "like": "gf",
+    "icons": [0,1,24],
+    "colors": ["#FFFFFF"]
+  },
+
+  "miku-asereje": {
+    "like": "miku-asereje",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+  "cassette-girl": {
+    "like": "cassette-girl",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "cassette-girl-alt": {
+    "like": "cassette-girl-alt",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+  "salty": {
+    "like": "bf",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "itsumi": {
+    "like": "gf",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+  "fl-chan": {
+    "like": "fl-chan",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+  "sky-annoyed": {
+    "like": "sky-annoyed",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+  "yuri": {
+    "like": "yuri",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+
+  "gf-holiday": {
+    "like": "gf-holiday",
+    "icons": [0,1,24],
+    "colors": ["#7E6AA1"]
+  },
+  "bf-holiday": {
+    "like": "bf-holiday",
     "icons": [0,1,24],
     "colors": ["#FFFFFF"]
   }

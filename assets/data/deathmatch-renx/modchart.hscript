@@ -1,0 +1,77 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 767){
+        FlxG.camera.flash(0xFFFFFF, 1.6);
+            }
+if (step == 767){
+    switchCharacter('pico-corrupted2', 'boyfriend');
+            }
+if (step == 1020){
+        FlxG.camera.flash(0xFFFFFF, 1.6);
+            }
+if (step == 1020){
+    switchCharacter('spooky-corrupted', 'boyfriend');
+            }
+if (step == 1402){
+        FlxG.camera.flash(0xFFFFFF, 1.6);
+            }
+if (step == 1402){
+    switchCharacter('bf', 'boyfriend');
+            }
+if (step == 1662){
+        FlxG.camera.flash(0xFFFFFF, 1.6);
+            }
+if (step == 1662){
+    switchCharacter('mom-corrupted', 'boyfriend');
+            }
+if (step == 1920){
+        FlxG.camera.flash(0xFFFFFF, 1.6);
+            }
+if (step == 1920){
+    switchCharacter('bf-corrupted3', 'boyfriend');
+            }
+if (step == 2168){
+        FlxG.camera.flash(0xFFFFFF, 2);
+ }; 
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

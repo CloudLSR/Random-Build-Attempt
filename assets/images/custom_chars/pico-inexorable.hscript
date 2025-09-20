@@ -1,0 +1,68 @@
+// char is a Character
+function init(char) {
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'Pico Idle Dance', 24, false);
+    char.animation.addByPrefix('singUP', 'pico Up note0', 14, true);
+    char.animation.addByPrefix('singDOWN', 'Pico Down Note0', 14, true);
+    char.animation.addByPrefix('singDOWNmiss', 'Pico Down Note MISS', 24, false);
+    char.animation.addByPrefix('singUPmiss', 'pico Up note miss', 24, false);
+    if (char.isPlayer) {
+        char.animation.addByPrefix('singRIGHT','Pico NOTE LEFT0', 14, true);
+        char.animation.addByPrefix('singLEFT', 'Pico Note Right0', 14, true);
+        char.animation.addByPrefix('singRIGHTmiss', 'Pico NOTE LEFT miss', 24, false);
+        char.animation.addByPrefix('singLEFTmiss', 'Pico Note Right Miss', 24,false);
+        
+        char.followCamX = -240;
+        char.followCamY = 50;
+
+        char.y -= 45;
+        char.x += 150;
+
+        char.addOffset('singDOWN', 87, -80);
+        char.addOffset('singDOWNmiss', 87, -29);
+        char.addOffset('singRIGHT', -48, 0);
+        char.addOffset('singRIGHTmiss', -40, 50);
+        char.addOffset('singUP', 19, 23);
+        char.addOffset('singUPmiss', 19, 67);
+        char.addOffset('singLEFT', 75, -9);
+        char.addOffset('singLEFTmiss', 75, 25);
+    }
+    
+    
+
+
+    char.addOffset('idle', 0, -55);
+    char.addOffset('danceLeft', -1, -61);
+    char.addOffset('danceRight', -100, -54);
+    char.addOffset('singUP', -51, -33);
+    char.addOffset('singRIGHT', -100, -54);
+    char.addOffset('singLEFT', -1, -61);
+    char.addOffset('singDOWN', 28, -132);
+
+    char.playAnim('idle');
+
+    char.flipX = true;
+
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 300;
+    char.playerOffsetX = -174;
+    char.playerOffsetY = -60;
+    char.followCamX = -205;
+    char.followCamY = 93;
+    char.midpointX = 0;
+    char.midpointY = 0;
+    char.camOffsetX = 350;
+    char.camOffsetY = 100;
+    char.setGraphicSize(Std.int(char.width * 0.65));
+}
+portraitOffset = [0, 0];
+dadVar = 4.0;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    char.playAnim('idle');
+}

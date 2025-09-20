@@ -1,0 +1,172 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 1007){
+    camHUD.visible = false;
+            }
+if (step == 1336){
+    camHUD.visible = true;
+            }
+if (step == 1981){
+    camHUD.visible = false;
+            }
+if (step == 2100){
+    camHUD.visible = true;
+            }
+if (step == 3945){
+    camHUD.visible = false;
+            }
+if (step == 3992){
+    camHUD.visible = true;
+            }
+if (step == 1101){
+        FlxG.camera.flash(0xFFFFFF, 1.4);
+            }
+if (step == 1030){
+    switchCharacter('templateSpirit-hd', 'dad');
+            }
+if (step == 1222){
+    switchCharacter('monster', 'boyfriend');
+            }
+if (step == 1226){
+    switchCharacter('templateSenpaiAngry-hd', 'dad');
+            }
+if (step == 1236){
+    switchCharacter('bf-car', 'boyfriend');
+            }
+if (step == 1468){
+        FlxG.camera.flash(0xFFFFFF, 0.5);
+            }
+if (step == 1478){
+    switchCharacter('senpai', 'dad');
+            }
+if (step == 1598){
+    switchCharacter('bf', 'boyfriend');
+            }
+if (step == 1890){
+    switchCharacter('monster-christmas', 'dad');
+            }
+if (step == 1929){
+    switchCharacter('senpai', 'dad');
+            }
+if (step == 1981){
+    switchCharacter('monster-christmas', 'dad');
+            }
+if (step == 2101){
+    switchCharacter('senpai', 'dad');
+            }
+if (step == 2105){
+    switchCharacter('monster-christmas', 'dad');
+    switchCharacter('bf-car', 'boyfriend');
+            }
+if (step == 2231){
+    switchCharacter('bf', 'boyfriend');
+            }
+if (step == 2258){
+    switchCharacter('senpai', 'dad');
+            }
+if (step == 2606){
+        FlxG.camera.flash(0x000000, 2);
+            }
+if (step == 2606){
+    switchCharacter('bf-christmas', 'boyfriend');
+            }
+if (step == 2983){
+    switchCharacter('templateMonster', 'dad');
+    switchCharacter('bulb-pixel', 'boyfriend');
+            }
+if (step == 3360){
+    switchCharacter('senpai', 'dad');
+            }
+if (step == 3484){
+    switchCharacter('bf', 'boyfriend');
+            }
+if (step == 3550){
+        FlxG.camera.flash(0x000000, 4);
+            }
+if (step == 3553){
+   bruh = new FlxSprite().loadGraphic('assets/images/memory.png');
+   bruh.antialiasing = true;
+   bruh.scrollFactor.set();
+   bruh.screenCenter();
+   bruh.cameras = [camHUD];
+   addSprite(bruh, BEHIND_NONE);
+            }
+if (step == 3576){
+   removeSprite(bruh);
+            }
+if (step == 3651){
+        FlxG.camera.flash(0xFFFFFF, 0.6);
+            }
+if (step == 3868){
+        FlxG.camera.flash(0xFFFFFF, 0.6);
+            }
+if (step == 3941){
+    switchCharacter('parents-christmas', 'dad');
+            }
+if (step == 3996){
+    switchCharacter('bf-car', 'boyfriend');
+            }
+if (step == 4052){
+    switchCharacter('senpai', 'dad');
+            }
+if (step == 4130){
+    switchCharacter('bf', 'boyfriend');
+            }
+if (step == 4070){
+        FlxG.camera.flash(0xFFFFFF, 0.6);
+            }
+if (step == 4138){
+        FlxG.camera.flash(0xFFFFFF, 0.7);
+            }
+if (step == 4291){
+        FlxG.camera.flash(0xFFFFFF, 9);
+            }
+if (step == 4290){
+    switchCharacter('templateMonster', 'dad');
+    switchCharacter('bf-car', 'boyfriend');
+            }
+if (step == 4343){
+    switchCharacter('senpai', 'dad');
+ }; 
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
