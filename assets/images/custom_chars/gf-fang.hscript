@@ -12,11 +12,11 @@ function init(char) {
     char.animation.addByPrefix('singDOWN', 'G Down', 24, false);
     trace("finish anim");
 
-    char.addOffset('idle', 150, -250);
-    char.addOffset('singUP', 155, -207);
-    char.addOffset('singRIGHT', 155, -255);
-    char.addOffset('singLEFT', 155, -354);
-    char.addOffset('singDOWN', 155, -292);
+    char.addOffset('idle', -105, -240);
+    char.addOffset('singUP', -95, -240);
+    char.addOffset('singRIGHT', -119, -248);
+    char.addOffset('singLEFT', -49, -246);
+    char.addOffset('singDOWN', -116, -277);
 
     char.playAnim('idle');
 
@@ -26,8 +26,8 @@ function init(char) {
     char.enemyOffsetY = 0;
     char.playerOffsetX = 0;
     char.playerOffsetY = 0;
-    char.followCamX = 200;
-    char.followCamY = 220;
+    char.followCamX = 265;
+    char.followCamY = 130;
     char.midpointX = 0;
     char.midpointY = 0;
 }

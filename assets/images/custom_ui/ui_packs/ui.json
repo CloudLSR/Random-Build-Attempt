@@ -36,5 +36,10 @@
         "isPixel": false,
         "builtInJudgement": false,
         "uses": "sarvente"
+    },
+    "b3": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "b3"
     }
 }

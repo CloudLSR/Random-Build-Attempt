@@ -12,10 +12,10 @@ function init(char) {
         char.animation.addByPrefix('singLEFTmiss', 'Left Miss', 24, false);
         char.animation.addByPrefix('singRIGHTmiss', 'Right Miss', 24,false);
 
-        char.addOffset('singUP', -18, 12);
-        char.addOffset('singLEFT', 2, -10);
-        char.addOffset('singRIGHT', -16, -7);
-        char.addOffset('singDOWN', 60, -60);
+        char.addOffset('singUP', -7, -4);
+        char.addOffset('singLEFT', 1, -11);
+        char.addOffset('singRIGHT', -8, 6);
+        char.addOffset('singDOWN', -7, -20);
 
         char.followCamX = 50;
         char.followCamY = 0;
@@ -71,8 +71,8 @@ function init(char) {
     char.enemyOffsetY = 350;
     char.playerOffsetX = 0;
     char.playerOffsetY = 0;
-    char.followCamX = -166;
-    char.followCamY = -140;
+    char.followCamX = -100;
+    char.followCamY = -105;
     char.midpointX = 0;
     char.midpointY = 0;
 }

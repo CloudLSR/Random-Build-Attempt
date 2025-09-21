@@ -1,35 +1,267 @@
+var stageFront;
+
+var flashToggle = false;
+
+var fadeSprites = [];
+var fadeStart = [];
+var fadeTarget = [];
+var fadeDuration = [];
+var fadeElapsed = [];
+var fadeEase = [];
+
+function fadeAlpha(sprite, targetAlpha, duration, ease) {
+    if (ease == null) ease = "linear";
+
+    fadeSprites.push(sprite);
+    fadeStart.push(sprite.alpha);
+    fadeTarget.push(targetAlpha);
+    fadeDuration.push(duration);
+    fadeElapsed.push(0.0);
+    fadeEase.push(ease);
+}
+
 function start(song) {
-    var bg = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'room.png');
+    var bg = new FlxSprite(-550, -280).loadGraphic(hscriptPath + 'room.png');
     bg.scrollFactor.set(0.9, 0.9);
     bg.antialiasing = true;
     addSprite(bg, BEHIND_ALL);
-    var stageFront = new FlxSprite(-650, 600).loadGraphic(hscriptPath + 'filterforbg.png');
-    stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-    stageFront.scrollFactor.set(0.9, 0.9);
-    stageFront.antialiasing = true;
-    stageFront.updateHitbox();
-    addSprite(stageFront, BEHIND_ALL);
-    var stagecurtains = new FlxSprite(-500, -300).loadGraphic(hscriptPath + 'windowcity.png');
-    stagecurtains.setGraphicSize(Std.int(stageFront.width * 0.9));
-    stagecurtains.scrollFactor.set(1.3, 1.3);
+
+    var stagecurtains = new FlxSprite(-545, -280).loadGraphic(hscriptPath + 'windowcity.png');
+    stagecurtains.scrollFactor.set(0.9, 0.9);
     stagecurtains.updateHitbox();
     stagecurtains.antialiasing = true;
     addSprite(stagecurtains, BEHIND_ALL);
-    setDefaultZoom(0.9);
-}
 
+    stageFront = new FlxSprite(-550, -280).loadGraphic(hscriptPath + 'filterforbg.png');
+    stageFront.scrollFactor.set(0.9, 0.9);
+    stageFront.antialiasing = true;
+    stageFront.updateHitbox();
+    stageFront.alpha = 1;
+    addSprite(stageFront, BEHIND_ALL);
+
+    setDefaultZoom(0.76);
+}
 
 function beatHit(beat)
 {
-
 }
 
-function update(elapsed)
-{
+function update(elapsed) {
+    var i = 0;
+    while (i < fadeSprites.length) {
+        fadeElapsed[i] += elapsed;
+        var t = fadeElapsed[i] / fadeDuration[i];
+        if (t > 1) t = 1;
+
+        var ratio = t;
+        if (fadeEase[i] == "easeIn") ratio = t * t;
+        if (fadeEase[i] == "easeOut") ratio = t * (2 - t);
+
+        fadeSprites[i].alpha = fadeStart[i] + (fadeTarget[i] - fadeStart[i]) * ratio;
+
+        if (t >= 1) {
+            fadeSprites.remove(fadeSprites[i]);
+            fadeStart.remove(fadeStart[i]);
+            fadeTarget.remove(fadeTarget[i]);
+            fadeDuration.remove(fadeDuration[i]);
+            fadeElapsed.remove(fadeElapsed[i]);
+            fadeEase.remove(fadeEase[i]);
+        } else {
+            i++;
+        }
+    }
 }
 
-function stepHit(step)
-{
+function stepHit(step) {
+// SHADOW ANIMATION
+    if (step % 16 == 0) {
+        flashToggle = !flashToggle;
+        fadeAlpha(stageFront, flashToggle ? 0.5 : 1, 1.85, "easeIn");
+    }
+
+// GF ZOOMS
+    if (step == 384) {
+        setDefaultZoom(0.90);
+    }
+    if (step == 386) {
+        setDefaultZoom(0.80);
+    }
+    if (step == 388) {
+        setDefaultZoom(0.85);
+    }
+    if (step == 390) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 392 && step <= 440 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.80 }, 0.01, { ease: FlxEase.quadOut });
+    }
+
+// BF ZOOMS
+    if (step == 448) {
+        setDefaultZoom(0.90);
+    }
+    if (step == 450) {
+        setDefaultZoom(0.80);
+    }
+    if (step == 452) {
+        setDefaultZoom(0.85);
+    }
+    if (step == 454) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 456 && step <= 504 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.80 }, 0.01, { ease: FlxEase.quadOut });
+    }
+
+// GF ZOOMS
+    if (step == 512) {
+        setDefaultZoom(0.90);
+    }
+    if (step == 514) {
+        setDefaultZoom(0.80);
+    }
+    if (step == 516) {
+        setDefaultZoom(0.85);
+    }
+    if (step == 518) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 520 && step <= 568 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.80 }, 0.01, { ease: FlxEase.quadOut });
+    }
+
+// BF ZOOMS
+    if (step == 576) {
+        setDefaultZoom(0.90);
+    }
+    if (step == 578) {
+        setDefaultZoom(0.80);
+    }
+    if (step == 580) {
+        setDefaultZoom(0.85);
+    }
+    if (step == 582) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 584 && step <= 632 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.80 }, 0.01, { ease: FlxEase.quadOut });
+    }
+
+// GF ZOOMS #2
+    if (step >= 640 && step <= 664 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 652 && step <= 654 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 668) {
+        setDefaultZoom(0.86);
+    }
+    if (step == 669) {
+        setDefaultZoom(0.96);
+    }
+    if (step == 670) {
+        setDefaultZoom(1.06);
+    }
+    if (step == 672) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 672 && step <= 696 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 684 && step <= 686 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 698) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.10 }, 0.3, { ease: FlxEase.quadOut });
+    }
+
+// BF ZOOMS #2
+    if (step >= 704 && step <= 728 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 716 && step <= 718 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 732) {
+        setDefaultZoom(0.86);
+    }
+    if (step == 733) {
+        setDefaultZoom(0.96);
+    }
+    if (step == 734) {
+        setDefaultZoom(1.06);
+    }
+    if (step == 736) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 736 && step <= 760 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 748 && step <= 750 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 762) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.10 }, 0.3, { ease: FlxEase.quadOut });
+    }
+
+// GF ZOOMS #2
+    if (step >= 768 && step <= 792 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 780 && step <= 782 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 796) {
+        setDefaultZoom(0.86);
+    }
+    if (step == 797) {
+        setDefaultZoom(0.96);
+    }
+    if (step == 798) {
+        setDefaultZoom(1.06);
+    }
+    if (step == 800) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 800 && step <= 824 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 812 && step <= 814 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 826) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.10 }, 0.3, { ease: FlxEase.quadOut });
+    }
+
+// BF ZOOMS #2
+    if (step >= 832 && step <= 856 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 844 && step <= 846 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 860) {
+        setDefaultZoom(0.86);
+    }
+    if (step == 861) {
+        setDefaultZoom(0.96);
+    }
+    if (step == 862) {
+        setDefaultZoom(1.06);
+    }
+    if (step == 864) {
+        setDefaultZoom(0.76);
+    }
+    if (step >= 864 && step <= 888 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.84 }, 0.01, { ease: FlxEase.quadOut });
+    }
+    if (step >= 876 && step <= 878 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.86 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step == 890) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.10 }, 0.3, { ease: FlxEase.quadOut });
+    }
 }
 
 function playerTwoTurn()
@@ -55,4 +287,3 @@ function playerOneMiss()
 function playerOneSing()
 {
 }
-
