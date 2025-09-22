@@ -41,5 +41,10 @@
         "isPixel": false,
         "builtInJudgement": false,
         "uses": "b3"
+    },
+    "neo": {
+        "isPixel": false,
+        "builtInJudgement": false,
+        "uses": "neo"
     }
 }

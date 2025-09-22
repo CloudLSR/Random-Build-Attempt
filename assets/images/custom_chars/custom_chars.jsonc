@@ -704,7 +704,7 @@
   "parents-neo": {
     "like": "parents-neo",
     "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "colors": ["#5B488C"]
   },
 
   "bf-fang": {
@@ -715,7 +715,7 @@
   "gf-fang": {
     "like": "gf-fang",
     "icons": [0,1,24],
-    "colors": ["#FF3690"]
+    "colors": ["#8A3264"]
   },
 
   "bf-b3": {

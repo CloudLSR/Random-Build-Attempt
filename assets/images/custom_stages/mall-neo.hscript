@@ -2,10 +2,12 @@ var bum;
 var upperBop;
 var upperBop2;
 var satan;
+
+// FIREWORKS
+var fireworkCooldown = 0;
+var fireworkActive = false;
+
 function start(song) {
-	setDefaultZoom(0.7);
-
-
     var bg = new FlxSprite(-1000, -500).loadGraphic(hscriptPath + 'sky.png');
     bg.scrollFactor.set(0.2, 0.2);
     bg.antialiasing = true;
@@ -14,7 +16,6 @@ function start(song) {
     addSprite(bg, BEHIND_ALL);
 
     var bgEscal = new FlxSprite(-1100, -600).loadGraphic(hscriptPath + 'buildings.png');
-
 	bgEscal.setGraphicSize(Std.int(bgEscal.width * 0.9));
 	bgEscal.scrollFactor.set(0.3, 0.3);
 	bgEscal.updateHitbox();
@@ -24,21 +25,21 @@ function start(song) {
     upperBop = new MetroSprite(300, -90,true);
     upperBop.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'FireworkNeo.png', hscriptPath + 'FireworkNeo.xml');
     upperBop.animation.addByPrefix("idle", "Week 5 Firework", 34, false);
-    upperBop.animation.play("idle");
 	upperBop.setGraphicSize(Std.int(upperBop.width * 1.5));
 	upperBop.scrollFactor.set(0.33, 0.33);
 	upperBop.antialiasing = true;
 	upperBop.updateHitbox();
+	upperBop.visible = false; // OCULTO AL INICIO
 	addSprite(upperBop, BEHIND_ALL);
 
     upperBop2 = new MetroSprite(300, -90,true);
     upperBop2.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'NEO_Fireworks.png', hscriptPath + 'NEO_Fireworks.xml');
     upperBop2.animation.addByPrefix("idle", "Week 5 Firework Blue", 34, false);
-    upperBop2.animation.play("idle");
 	upperBop2.setGraphicSize(Std.int(upperBop2.width * 1.6));
 	upperBop2.scrollFactor.set(0.33, 0.33);
 	upperBop2.antialiasing = true;
 	upperBop2.updateHitbox();
+	upperBop2.visible = false; // OCULTO AL INICIO
 	addSprite(upperBop2, BEHIND_ALL);
 
     var snow = new FlxSprite(-800, -600).loadGraphic(hscriptPath + 'mainstage.png');
@@ -59,23 +60,61 @@ function start(song) {
     satan.antialiasing = true;
     satan.setGraphicSize(Std.int(satan.width * 0.99));
     addSprite(satan, BEHIND_ALL);
+
     boyfriend.x += 400;
     getHaxeActor("bf").followCamY -= 100;
     getHaxeActor("bf").followCamX -= 100;
-    
-}
 
+	setDefaultZoom(0.7);
+}
 
 function beatHit(beat)
 {
     satan.dance();
     bum.dance();
-    upperBop.dance();
-    upperBop2.dance();
+
+// FIREWORKS
+    if (!fireworkActive) {
+        fireworkCooldown++;
+    }
+
+// CADA 4 BEATS = 25% DE FIREWORK
+    if (fireworkCooldown > 4 && FlxG.random.bool(25)) {
+        fireworkCooldown = 0;
+        triggerFirework();
+    }
 }
 
+// FIREWORKS
+function triggerFirework()
+{
+    fireworkActive = true;
+
+    var which = FlxG.random.int(1, 2); // 1 o 2
+    if (which == 1) {
+        upperBop.visible = true;
+        upperBop.animation.play("idle", true);
+        FlxG.sound.play(FNFAssets.getSound("assets/images/custom_stages/mall-neo/firework" + TitleState.soundExt));
+    } else {
+        upperBop2.visible = true;
+        upperBop2.animation.play("idle", true);
+        FlxG.sound.play(FNFAssets.getSound("assets/images/custom_stages/mall-neo/firework2" + TitleState.soundExt));
+    }
+}
+
+// FIREWORKS
 function update(elapsed)
 {
+    if (fireworkActive) {
+        if (upperBop.animation.curAnim != null && upperBop.animation.curAnim.finished) {
+            upperBop.visible = false;
+            fireworkActive = false;
+        }
+        if (upperBop2.animation.curAnim != null && upperBop2.animation.curAnim.finished) {
+            upperBop2.visible = false;
+            fireworkActive = false;
+        }
+    }
 }
 
 function stepHit(step)
@@ -105,4 +144,3 @@ function playerOneMiss()
 function playerOneSing()
 {
 }
-

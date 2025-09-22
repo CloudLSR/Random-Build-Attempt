@@ -16,9 +16,9 @@ function init(char) {
     char.animation.addByPrefix('singLEFT-alt', 'Parent Left Note Mom', 24, false);
     char.animation.addByPrefix('singRIGHT-alt', 'Parent Right Note Mom', 24, false);
 
-    char.addOffset('idle',0);
+    char.addOffset('idle', 0, 0);
     char.addOffset('singUP', -47, 24);
-    char.addOffset('singRIGHT',-1, -23);
+    char.addOffset('singRIGHT', -1, -23);
     char.addOffset('singLEFT', -30, 16);
     char.addOffset('singDOWN', -31, -29);
     char.addOffset('singUP-alt', -47, 24);
