@@ -1,0 +1,126 @@
+var gente;
+var weon1;
+var weon2;
+var weon3;
+var weon4;
+var weon5;
+var weon6;
+
+function start(song) {
+    var bg = new FlxSprite(-956, -542).loadGraphic(hscriptPath + 'Back.png');
+    bg.setGraphicSize(Std.int(bg.width * 1.54));
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+
+	weon1 = new MetroSprite(-597, 90, true);
+	weon1.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'holasoygerman.png', hscriptPath + 'holasoygerman.xml');
+	weon1.animation.addByPrefix("idle", "darkuro instance 10", 24, false);
+	weon1.animation.play("idle", true);
+    weon1.setGraphicSize(Std.int(weon1.width * 0.8));
+    weon1.antialiasing = true;
+    addSprite(weon1, BEHIND_ALL);
+
+	weon2 = new MetroSprite(-540, -185, true);
+	weon2.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'MaavoMaritzaIvette.png', hscriptPath + 'MaavoMaritzaIvette.xml');
+	weon2.animation.addByPrefix("idle", "familiafelis0", 24, false);
+	weon2.animation.play("idle", true);
+    weon2.setGraphicSize(Std.int(weon2.width * 0.69));
+    weon2.antialiasing = true;
+    addSprite(weon2, BEHIND_ALL);
+
+	weon3 = new MetroSprite(-324, 448, true);
+	weon3.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'mgrchilenita.png', hscriptPath + 'mgrchilenita.xml');
+	weon3.animation.addByPrefix("idle", "meguruchilenita instance 10", 24, false);
+	weon3.animation.play("idle", true);
+    weon3.setGraphicSize(Std.int(weon3.width * 0.8));
+    weon3.antialiasing = true;
+    addSprite(weon3, BEHIND_ALL);
+
+	weon4 = new MetroSprite(1075, 310, true);
+	weon4.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'Shy__Pico_HUASOS_assets.png', hscriptPath + 'Shy__Pico_HUASOS_assets.xml');
+	weon4.animation.addByPrefix("idle", "Both_idles0", 24, false);
+	weon4.animation.play("idle", true);
+    weon4.setGraphicSize(Std.int(weon4.width * 0.82));
+    weon4.antialiasing = true;
+    addSprite(weon4, BEHIND_ALL);
+
+	weon5 = new MetroSprite(-90, 250, true);
+	weon5.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'sulayrecameo.png', hscriptPath + 'sulayrecameo.xml');
+	weon5.animation.addByPrefix("idle", "sulayrebopper0", 24, false);
+	weon5.animation.play("idle", true);
+    weon5.setGraphicSize(Std.int(weon5.width * 0.82));
+    weon5.antialiasing = true;
+    addSprite(weon5, BEHIND_ALL);
+
+	weon6 = new MetroSprite(1645, 315, true);
+	weon6.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'tonobop.png', hscriptPath + 'tonobop.xml');
+	weon6.animation.addByPrefix("idle", "tonobop0", 24, false);
+	weon6.animation.play("idle", true);
+    weon6.setGraphicSize(Std.int(weon6.width * 0.87));
+    weon6.antialiasing = true;
+    addSprite(weon6, BEHIND_ALL);
+
+    var bg2 = new FlxSprite(-956, -542).loadGraphic(hscriptPath + 'carro_qliao.png');
+    bg2.setGraphicSize(Std.int(bg2.width * 1.54));
+    bg2.antialiasing = true;
+    addSprite(bg2, BEHIND_ALL);
+
+	gente = new MetroSprite(-525, -280, true);
+	gente.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'genteFront.png', hscriptPath + 'genteFront.xml');
+    gente.setGraphicSize(Std.int(gente.width * 1.11));
+	gente.antialiasing = true;
+	gente.animation.addByPrefix("idle", "BopCrowdFront0", 24, false);
+	gente.scrollFactor.set(1.1, 1.1);
+	gente.animation.play("idle", true);
+    addSprite(gente, BEHIND_NONE);
+
+	getHaxeActor("gf").x -= 110;
+	getHaxeActor("boyfriend").x += 70;
+	getHaxeActor("boyfriend").y += 8;
+	getHaxeActor("dad").y += 8;
+
+    setDefaultZoom(0.65);
+}
+
+function beatHit(beat)
+{
+    gente.dance();
+    weon1.dance();
+    weon2.dance();
+    weon3.dance();
+    weon4.dance();
+    weon5.dance();
+    weon6.dance();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

@@ -738,7 +738,17 @@
   "miku-asereje": {
     "like": "miku-asereje",
     "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "colors": ["#96543E"]
+  },
+  "bf-asereje": {
+    "like": "bf-asereje",
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
+  },
+  "gf-asereje": {
+    "like": "gf-asereje",
+    "icons": [0,1,24],
+    "colors": ["#EE19D9"]
   },
 
   "cassette-girl": {

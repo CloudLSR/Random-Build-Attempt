@@ -5,18 +5,23 @@ function init(char) {
     var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
     trace(": )");
     char.frames = tex;
-    char.animation.addByPrefix('idle', 'Miku Sing Note UP0', 24, false);
-    char.animation.addByPrefix('singUP', '"Miku idle dance0', 24, false);
+    char.animation.addByPrefix('idle', 'Miku idle dance0', 24, false);
+    char.animation.addByPrefix('singUP', 'Miku Sing Note UP0', 24, false);
     char.animation.addByPrefix('singLEFT','Miku Sing Note LEFT0', 24, false);
     char.animation.addByPrefix('singRIGHT', 'Miku Sing Note RIGHT0', 24, false);
     char.animation.addByPrefix('singDOWN', 'Miku Sing Note DOWN0', 24, false);
-    trace("finish anim");
 
-    char.addOffset('idle', 0);
-    char.addOffset('singUP', -6, 50);
-    char.addOffset('singRIGHT',0, 27);
-    char.addOffset('singLEFT', -10, 10);
-    char.addOffset('singDOWN', 0, -30);
+    char.addOffset('idle', 0, 0);
+    char.addOffset('singUP', 10, 47);
+    char.addOffset('singRIGHT', -38, -2);
+    char.addOffset('singLEFT', 50, 0);
+    char.addOffset('singDOWN', 35, -3);
+
+    char.animation.addByPrefix('singLEFT-alt', 'Miku IZQUIERDA ALT0', 24, false);
+    char.animation.addByPrefix('singRIGHT-alt', 'Miku DERECHA ALT0', 24, false);
+
+    char.addOffset('singLEFT-alt', 105, -93);
+    char.addOffset('singRIGHT-alt', 13, -5);
 
     char.playAnim('idle');
 
@@ -26,7 +31,7 @@ function init(char) {
     char.enemyOffsetY = 0;
     char.playerOffsetX = 0;
     char.playerOffsetY = 0;
-    char.followCamX = 259;
+    char.followCamX = 150;
     char.followCamY = -100;
     char.midpointX = 0;
     char.midpointY = 0;
