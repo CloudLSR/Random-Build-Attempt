@@ -1,0 +1,213 @@
+var black;
+
+// FADE EVENT
+var fadeSprites = [];
+var fadeStart = [];
+var fadeTarget = [];
+var fadeDuration = [];
+var fadeElapsed = [];
+var fadeEase = [];
+
+// FADE EVENT
+function fadeAlpha(sprite, targetAlpha, duration, ease) {
+    if (ease == null) ease = "linear";
+
+    fadeSprites.push(sprite);
+    fadeStart.push(sprite.alpha);
+    fadeTarget.push(targetAlpha);
+    fadeDuration.push(duration);
+    fadeElapsed.push(0.0);
+    fadeEase.push(ease);
+}
+
+function start(song) {
+    var bg = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'stageback.png');
+    bg.scrollFactor.set(0.9, 0.9);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+
+    var stageFront = new FlxSprite(-650, 600).loadGraphic(hscriptPath + 'stagefront.png');
+    stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+    stageFront.scrollFactor.set(0.9, 0.9);
+    stageFront.antialiasing = true;
+    stageFront.updateHitbox();
+    addSprite(stageFront, BEHIND_ALL);
+
+    var stagecurtains = new FlxSprite(-500, -300).loadGraphic(hscriptPath + 'stagecurtains.png');
+    stagecurtains.setGraphicSize(Std.int(stageFront.width * 0.9));
+    stagecurtains.scrollFactor.set(1.3, 1.3);
+    stagecurtains.updateHitbox();
+    stagecurtains.antialiasing = true;
+    addSprite(stagecurtains, BEHIND_ALL);
+
+    black = new FlxSprite(200, 200).loadGraphic(hscriptPath + 'black.png');
+    black.setGraphicSize(Std.int(black.width * 1.6));
+    black.antialiasing = true;
+    black.alpha = 0;
+    addSprite(black, BEHIND_ALL);
+
+    setDefaultZoom(0.9);
+}
+
+function beatHit(beat)
+{
+}
+
+// FADE EVENT
+function update(elapsed) {
+    var i = 0;
+    while (i < fadeSprites.length) {
+        fadeElapsed[i] += elapsed;
+        var t = fadeElapsed[i] / fadeDuration[i];
+        if (t > 1) t = 1;
+
+        var ratio = t;
+        if (fadeEase[i] == "easeIn") ratio = t * t;
+        if (fadeEase[i] == "easeOut") ratio = t * (2 - t);
+
+        fadeSprites[i].alpha = fadeStart[i] + (fadeTarget[i] - fadeStart[i]) * ratio;
+
+        if (t >= 1) {
+            fadeSprites.remove(fadeSprites[i]);
+            fadeStart.remove(fadeStart[i]);
+            fadeTarget.remove(fadeTarget[i]);
+            fadeDuration.remove(fadeDuration[i]);
+            fadeElapsed.remove(fadeElapsed[i]);
+            fadeEase.remove(fadeEase[i]);
+        } else {
+            i++;
+        }
+    }
+}
+
+function stepHit(step) {
+// SMOOTH CAM ZOOM
+    if (step == 320) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.1 }, 1.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(1.1); }});
+    }
+    if (step == 448) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.9 }, 0.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.9); }});
+    }
+
+    if (step == 622) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.1 }, 1.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(1.1); }});
+    }
+    if (step == 640) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.9 }, 0.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.9); }});
+    }
+    if (step == 686) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.1 }, 1.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(1.1); }});
+    }
+    if (step == 704) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.9 }, 0.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.9); }});
+    }
+
+    if (step == 768) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.1 }, 1.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(1.1); }});
+    }
+    if (step == 896) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.9 }, 0.5, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.9); }});
+    }
+
+    if (step == 932) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.1 }, 3, { ease: FlxEase.quadOut });
+    }
+
+// CAM ZOOMS
+    if (step >= 256 && step <= 288 && step % 16 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.3 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 304 && step <= 312 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.35 }, 0.001, { ease: FlxEase.quadOut });
+    }
+
+    if (step >= 576 && step <= 608 && step % 16 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.80 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 656 && step <= 672 && step % 16 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.80 }, 0.001, { ease: FlxEase.quadOut });
+    }
+
+    if (step >= 720 && step <= 736 && step % 16 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.3 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 752 && step <= 760 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.35 }, 0.001, { ease: FlxEase.quadOut });
+    }
+
+    if (step >= 384 && step <= 432 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.3 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 832 && step <= 888 && step % 8 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.3 }, 0.001, { ease: FlxEase.quadOut });
+    }
+
+
+// BLACK MOMENT
+    if (step == 320) {
+        fadeAlpha(black, 0.6, 1, "easeIn");
+    }
+    if (step == 384) {
+        fadeAlpha(black, 0, 0.6, "easeIn");
+    }
+
+    if (step == 622) {
+        fadeAlpha(black, 0.75, 0.8, "easeIn");
+    }
+    if (step == 640) {
+        fadeAlpha(black, 0, 1, "easeIn");
+    }
+    if (step == 686) {
+        fadeAlpha(black, 0.75, 0.8, "easeIn");
+    }
+    if (step == 704) {
+        fadeAlpha(black, 0, 1, "easeIn");
+    }
+
+    if (step == 768) {
+        fadeAlpha(black, 0.6, 1, "easeIn");
+    }
+    if (step == 832) {
+        fadeAlpha(black, 0, 0.6, "easeIn");
+    }
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
