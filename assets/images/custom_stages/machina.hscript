@@ -1,0 +1,196 @@
+var layer;
+var bg;
+var dude1;
+var dude2;
+
+var downlight;
+var leftlight;
+var rightlight;
+var uplight;
+
+// FADE EVENT
+var fadeSprites = [];
+var fadeStart = [];
+var fadeTarget = [];
+var fadeDuration = [];
+var fadeElapsed = [];
+var fadeEase = [];
+
+// FADE EVENT
+function fadeAlpha(sprite, targetAlpha, duration, ease) {
+    if (ease == null) ease = "linear";
+
+    fadeSprites.push(sprite);
+    fadeStart.push(sprite.alpha);
+    fadeTarget.push(targetAlpha);
+    fadeDuration.push(duration);
+    fadeElapsed.push(0.0);
+    fadeEase.push(ease);
+}
+
+function start(song) {
+    bg = new MetroSprite(-490, -630, true);
+    bg.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'CGBG.png', hscriptPath + 'CGBG.xml');
+    bg.animation.addByPrefix("idle", "new0", 24, false);
+    bg.animation.play("idle", true);
+    bg.setGraphicSize(Std.int(bg.width * 1.28));
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+
+	dude1 = new MetroSprite(114, 270, true);
+	dude1.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'bopper1.png', hscriptPath + 'bopper1.xml');
+	dude1.animation.addByPrefix("idle", "crowd10", 24, false);
+	dude1.animation.play("idle", true);
+    dude1.setGraphicSize(Std.int(dude1.width * 1.33));
+    dude1.antialiasing = true;
+    addSprite(dude1, BEHIND_ALL);
+
+	dude2 = new MetroSprite(60, 245, true);
+	dude2.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'bopper2.png', hscriptPath + 'bopper2.xml');
+	dude2.animation.addByPrefix("idle", "crowd10", 24, false);
+	dude2.animation.play("idle", true);
+    dude2.setGraphicSize(Std.int(dude2.width * 1.33));
+    dude2.antialiasing = true;
+    addSprite(dude2, BEHIND_ALL);
+
+    layer = new FlxSprite(-400, 10).loadGraphic(hscriptPath + 'BGLAYER.png');
+    layer.setGraphicSize(Std.int(layer.width * 1.3));
+    layer.updateHitbox();
+    layer.alpha = 0.75;
+    layer.antialiasing = true;
+    addSprite(layer, BEHIND_NONE);
+
+    // NOTE LIGHTS EVENT
+        downlight = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'DOWN LIGHT.png');
+        downlight.setGraphicSize(Std.int(downlight.width * 0.812));
+        downlight.antialiasing = true;
+        downlight.screenCenter();
+        downlight.cameras = [camHUD];
+        downlight.alpha = 0;
+        addSprite(downlight, BEHIND_NONE);
+
+        leftlight = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'LEFT LIGHT.png');
+        leftlight.setGraphicSize(Std.int(leftlight.width * 0.812));
+        leftlight.antialiasing = true;
+        leftlight.screenCenter();
+        leftlight.cameras = [camHUD];
+        leftlight.alpha = 0;
+        addSprite(leftlight, BEHIND_NONE);
+
+        rightlight = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'RIGHT LIGHT.png');
+        rightlight.setGraphicSize(Std.int(rightlight.width * 0.812));
+        rightlight.antialiasing = true;
+        rightlight.screenCenter();
+        rightlight.cameras = [camHUD];
+        rightlight.alpha = 0;
+        addSprite(rightlight, BEHIND_NONE);
+
+        uplight = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'UP LIGHT.png');
+        uplight.setGraphicSize(Std.int(uplight.width * 0.812));
+        uplight.antialiasing = true;
+        uplight.screenCenter();
+        uplight.cameras = [camHUD];
+        uplight.alpha = 0;
+        addSprite(uplight, BEHIND_NONE);
+
+	getHaxeActor("boyfriend").x += 120;
+	getHaxeActor("boyfriend").y += 140;
+	getHaxeActor("dad").y += 175;
+    
+    getHaxeActor("boyfriend").followCamX -= 43;
+    getHaxeActor("boyfriend").followCamY -= 140;
+    getHaxeActor("dad").followCamX -= 53;
+    getHaxeActor("dad").followCamY += 20;
+
+    setDefaultZoom(0.68);
+}
+
+function beatHit(beat)
+{
+    bg.dance();
+    dude1.dance();
+    dude2.dance();
+}
+
+// FADE EVENT
+function update(elapsed) {
+    var i = 0;
+    while (i < fadeSprites.length) {
+        fadeElapsed[i] += elapsed;
+        var t = fadeElapsed[i] / fadeDuration[i];
+        if (t > 1) t = 1;
+
+        var ratio = t;
+        if (fadeEase[i] == "easeIn") ratio = t * t;
+        if (fadeEase[i] == "easeOut") ratio = t * (2 - t);
+
+        fadeSprites[i].alpha = fadeStart[i] + (fadeTarget[i] - fadeStart[i]) * ratio;
+
+        if (t >= 1) {
+            fadeSprites.remove(fadeSprites[i]);
+            fadeStart.remove(fadeStart[i]);
+            fadeTarget.remove(fadeTarget[i]);
+            fadeDuration.remove(fadeDuration[i]);
+            fadeElapsed.remove(fadeElapsed[i]);
+            fadeEase.remove(fadeEase[i]);
+        } else {
+            i++;
+        }
+    }
+}
+
+function stepHit(step) {
+// SMOOTH CAM ZOOM
+    if (step == 640) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.78 }, 1, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.78); }});
+    }
+    if (step == 960) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.68 }, 1, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.68); }});
+    }
+    
+// CHARACTER CHANGE
+    if (step == 640) {
+        switchCharacter('cassette-girl-alt', 'dad');
+	    getHaxeActor("dad").y += 175;
+        getHaxeActor("dad").followCamX -= 53;
+        getHaxeActor("dad").followCamY += 20;
+    }
+    if (step == 960) {
+        switchCharacter('cassette-girl', 'dad');
+	    getHaxeActor("dad").y += 175;
+        getHaxeActor("dad").followCamX -= 53;
+        getHaxeActor("dad").followCamY += 20;
+    }
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+// NOTE LIGHTS EVENT
+function playerOneSing(?noteData) {
+    uplight.alpha = 1; fadeAlpha(uplight, 0, 0.3, "linear");
+    downlight.alpha = 1; fadeAlpha(downlight, 0, 0.3, "linear");
+    leftlight.alpha = 1; fadeAlpha(leftlight, 0, 0.3, "linear");
+    rightlight.alpha = 1; fadeAlpha(rightlight, 0, 0.3, "linear");
+}

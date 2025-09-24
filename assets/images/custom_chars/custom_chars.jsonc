@@ -754,12 +754,12 @@
   "cassette-girl": {
     "like": "cassette-girl",
     "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "colors": ["#5951B0"]
   },
   "cassette-girl-alt": {
     "like": "cassette-girl-alt",
     "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "colors": ["#5951B0"]
   },
 
   "salty": {

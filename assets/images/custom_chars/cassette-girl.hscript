@@ -10,13 +10,12 @@ function init(char) {
     char.animation.addByPrefix('singLEFT','cassettegirl left0', 24, false);
     char.animation.addByPrefix('singRIGHT', 'cassettegirl right0', 24, false);
     char.animation.addByPrefix('singDOWN', 'cassettegirl down0', 24, false);
-    trace("finish anim");
 
-    char.addOffset('idle', 0);
-    char.addOffset('singUP', -6, 50);
-    char.addOffset('singRIGHT',0, 27);
-    char.addOffset('singLEFT', -10, 10);
-    char.addOffset('singDOWN', 0, -30);
+    char.addOffset('idle', 0, 0);
+    char.addOffset('singUP', 0, 0);
+    char.addOffset('singRIGHT', -2, 0);
+    char.addOffset('singLEFT', -4, 0);
+    char.addOffset('singDOWN', 0, -2);
 
     char.playAnim('idle');
 
