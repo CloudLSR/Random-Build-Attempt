@@ -1,0 +1,171 @@
+var tree;
+var present;
+var snow;
+
+// RANDOM FRAME
+var lastAnim = -1;
+
+function start(song) {
+    var sky = new FlxSprite(212.85, -89.4).loadGraphic(hscriptPath + 'sky.png');
+    sky.antialiasing = true;
+    addSprite(sky, BEHIND_ALL);
+
+    snow = new FlxSprite(274.95, -297).loadGraphic(hscriptPath + 'snow.png');
+    snow.scrollFactor.set(0.8, 0.9);
+    snow.antialiasing = true;
+    addSprite(snow, BEHIND_ALL);
+
+    var wall = new FlxSprite(-329.65, -1016.6).loadGraphic(hscriptPath + 'wall.png');
+    wall.setGraphicSize(Std.int(wall.width * 1));
+    wall.scrollFactor.set(0.8, 0.9);
+    wall.antialiasing = true;
+    wall.updateHitbox();
+    addSprite(wall, BEHIND_ALL);
+
+    present = new FlxSprite(-107.15, 24.5).loadGraphic(hscriptPath + 'present.png');
+    present.scrollFactor.set(0.9, 0.9);
+    present.updateHitbox();
+    present.antialiasing = true;
+    addSprite(present, BEHIND_ALL);
+    
+    tree = new MetroSprite(875.2, -167, true);
+    tree.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'tree.png', hscriptPath + 'tree.xml');
+
+    // 4 VARIANTES COMO ANIMACIONES DE 1 FRAME
+        tree.animation.addByPrefix("tree0", "tree0000", 24, false);
+        tree.animation.addByPrefix("tree1", "tree0001", 24, false);
+        tree.animation.addByPrefix("tree2", "tree0002", 24, false);
+        tree.animation.addByPrefix("tree3", "tree0003", 24, false);
+
+	tree.scrollFactor.set(0.9, 0.9);
+	tree.antialiasing = true;
+	tree.updateHitbox();
+	addSprite(tree, BEHIND_ALL);
+
+    // RANDOM FRAME
+        var firstAnim = FlxG.random.int(0, 3);
+        tree.animation.play("tree" + firstAnim, true);
+        lastAnim = firstAnim;
+        
+	getHaxeActor("boyfriend").x += 40;
+	getHaxeActor("boyfriend").y -= 214;
+	getHaxeActor("dad").x -= 86;
+	getHaxeActor("dad").y -= 210;
+
+    getHaxeActor("boyfriend").followCamX -= 45;
+    getHaxeActor("boyfriend").followCamY += 10;
+    getHaxeActor("dad").followCamX -= 205;
+    getHaxeActor("dad").followCamY += 1;
+
+    setDefaultZoom(1.0);
+}
+
+function beatHit(beat)
+{
+}
+
+// SNOW EFFECT
+function update(elapsed) {
+    snow.y += 60 * elapsed;
+
+    if (snow.y >= 0) {
+        snow.y = -snow.height;
+    }
+}
+
+function stepHit(step) {
+// RANDOM FRAME
+    // Cada 16 steps = 4 beats
+    if (step % 4 == 0) {
+        var newAnim = FlxG.random.int(0, 3);
+
+        // Evitar repetir la misma dos veces seguidas
+        while (newAnim == lastAnim) {
+            newAnim = FlxG.random.int(0, 3);
+        }
+
+        tree.animation.play("tree" + newAnim, true);
+        lastAnim = newAnim;
+    }
+
+// REBOTE DROP
+    if (step >= 336 && step <= 448 && step % 16 == 0) {
+        FlxTween.tween(getHaxeActor("boyfriend"), { y: getHaxeActor("boyfriend").y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(getHaxeActor("boyfriend"), { y: getHaxeActor("boyfriend").y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+        FlxTween.tween(getHaxeActor("dad"), { y: getHaxeActor("dad").y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(getHaxeActor("dad"), { y: getHaxeActor("dad").y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+        FlxTween.tween(present, { y: present.y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(present, { y: present.y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+    }
+
+// REBOTE DROP
+    if (step >= 720 && step <= 800 && step % 16 == 0) {
+        FlxTween.tween(getHaxeActor("boyfriend"), { y: getHaxeActor("boyfriend").y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(getHaxeActor("boyfriend"), { y: getHaxeActor("boyfriend").y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+        FlxTween.tween(getHaxeActor("dad"), { y: getHaxeActor("dad").y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(getHaxeActor("dad"), { y: getHaxeActor("dad").y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+        FlxTween.tween(present, { y: present.y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(present, { y: present.y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+    }
+
+// REBOTE DROP
+    if (step == 864) {
+        FlxTween.tween(getHaxeActor("boyfriend"), { y: getHaxeActor("boyfriend").y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(getHaxeActor("boyfriend"), { y: getHaxeActor("boyfriend").y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+        FlxTween.tween(getHaxeActor("dad"), { y: getHaxeActor("dad").y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(getHaxeActor("dad"), { y: getHaxeActor("dad").y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+        FlxTween.tween(present, { y: present.y - 80 }, 0.25, { ease: FlxEase.quadOut, 
+            onComplete: function(_) {
+                FlxTween.tween(present, { y: present.y + 80 }, 0.25, { ease: FlxEase.bounceOut });
+            }
+        });
+    }
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

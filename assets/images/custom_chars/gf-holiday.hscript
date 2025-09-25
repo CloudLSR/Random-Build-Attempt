@@ -14,16 +14,16 @@ function init(char) {
     char.animation.addByIndices('hairFall', "GF Dancing Beat Hair Landing", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "", 24, false);
     char.animation.addByPrefix('scared', 'GF FEAR', 24);
     trace("finish anim");
-    char.addOffset('cheer',0);
-    char.addOffset('sad', -2, -21);
+    char.addOffset('cheer', 0, 0);
+    char.addOffset('sad', -2, -14);
     char.addOffset('danceLeft', 0, -9);
     char.addOffset('danceRight', 0, -9);
 
-    char.addOffset("singUP", 0, 4);
-    char.addOffset("singRIGHT", 0, -20);
-    char.addOffset("singLEFT", 0, -19);
+    char.addOffset("singUP", 0, 6);
+    char.addOffset("singRIGHT", 0, -30);
+    char.addOffset("singLEFT", 0, -13);
     char.addOffset("singDOWN", 0, -20);
-    char.addOffset('hairBlow', 45, -8);
+    char.addOffset('hairBlow', 45, -9);
     char.addOffset('hairFall', 0, -9);
 
     char.addOffset('scared', -2, -17);
