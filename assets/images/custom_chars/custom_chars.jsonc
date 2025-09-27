@@ -785,10 +785,20 @@
     "colors": ["#7E6AA1"]
   },
 
+  "bf-doki": {
+    "like": "bf-doki",
+    "icons": [0,1,2],
+    "colors": ["#149DFF"]
+  },
+  "gf-doki": {
+    "like": "gf-doki",
+    "icons": [0,1,2],
+    "colors": ["#EE19D9"]
+  },
   "yuri": {
     "like": "yuri",
-    "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "icons": [0,1,2],
+    "colors": ["#A666BD"]
   },
 
   "gf-holiday": {

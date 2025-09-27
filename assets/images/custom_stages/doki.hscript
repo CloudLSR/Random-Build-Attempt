@@ -1,0 +1,139 @@
+var sayori;
+var natsuki;
+var sparklebg;
+var sparklefg;
+
+function start(song) {
+    var farbg = new FlxSprite(-166, -234).loadGraphic(hscriptPath + 'DDLCfarbg.png');
+    farbg.setGraphicSize(Std.int(farbg.width * 1.6));
+    farbg.antialiasing = true;
+    addSprite(farbg, BEHIND_ALL);
+
+    var bg = new FlxSprite(-190, -234).loadGraphic(hscriptPath + 'DDLCbg.png');
+    bg.setGraphicSize(Std.int(bg.width * 1.6));
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+
+    sayori = new MetroSprite(-102, 141, true);
+    sayori.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'sayori.png', hscriptPath + 'sayori.xml');
+    sayori.animation.addByPrefix("idle", "Sayori BG0", 24, false);
+    sayori.antialiasing = true;
+    sayori.setGraphicSize(Std.int(sayori.width * 0.693));
+    addSprite(sayori, BEHIND_ALL);
+
+    natsuki = new MetroSprite(980, 196, true);
+    natsuki.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'natsuki.png', hscriptPath + 'natsuki.xml');
+    natsuki.animation.addByPrefix("idle", "Natsu BG0", 24, false);
+    natsuki.antialiasing = true;
+    natsuki.setGraphicSize(Std.int(natsuki.width * 0.693));
+    addSprite(natsuki, BEHIND_ALL);
+
+    var lights = new FlxSprite(-190, -234).loadGraphic(hscriptPath + 'clublights.png');
+    lights.setGraphicSize(Std.int(lights.width * 1.5));
+    lights.antialiasing = true;
+    addSprite(lights, BEHIND_ALL);
+
+    var desk = new FlxSprite(-192, -224).loadGraphic(hscriptPath + 'DesksFront.png');
+    desk.setGraphicSize(Std.int(desk.width * 1.6));
+    desk.scrollFactor.set(1.3, 1.3);
+    desk.antialiasing = true;
+    addSprite(desk, BEHIND_ALL);
+
+    // SPARKLES
+        sparklebg = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'YuriSparkleBG.png');
+        sparklebg.antialiasing = true;
+        sparklebg.screenCenter();
+        sparklebg.cameras = [camHUD];
+        sparklebg.alpha = 0;
+        addSprite(sparklebg, BEHIND_NONE);
+
+        sparklefg = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'YuriSparkleFG.png');
+        sparklefg.antialiasing = true;
+        sparklefg.screenCenter();
+        sparklefg.cameras = [camHUD];
+        sparklefg.alpha = 0;
+        addSprite(sparklefg, BEHIND_NONE);
+
+	getHaxeActor("dad").x -= 8;
+
+    getHaxeActor("bf").followCamY -= 101;
+    getHaxeActor("bf").followCamX -= 53;
+
+    setDefaultZoom(0.75);
+}
+
+function beatHit(beat)
+{
+    sayori.dance();
+    natsuki.dance();
+}
+
+// SPARKLES MOMENT
+function update(elapsed) {
+    sparklebg.x -= 20 * elapsed;
+    if (sparklebg.x <= -sparklebg.width) {
+        sparklebg.x = FlxG.width;
+    }
+
+    sparklefg.x -= 40 * elapsed;
+    if (sparklefg.x <= -sparklefg.width) {
+        sparklefg.x = FlxG.width;
+    }
+}
+
+function stepHit(step) {
+    if (step == 140) {
+        getHaxeActor("dad").playAnim("breath", true);
+    }
+    if (step == 150) {
+        FlxG.sound.play(FNFAssets.getSound("assets/images/custom_stages/doki/exhale" + TitleState.soundExt));
+    }
+
+// SPARKLES MOMENT
+    if (step == 416) {
+        sparklebg.alpha = 1;
+        sparklefg.alpha = 1;
+    // RESET
+        sparklebg.x = 220;
+        sparklefg.x = -500;
+    }
+    if (step == 800) {
+        FlxTween.tween(sparklebg, { alpha: 0 }, 1.5, { ease: FlxEase.quadOut });
+        FlxTween.tween(sparklefg, { alpha: 0 }, 1.5, { ease: FlxEase.quadOut });
+    }
+    if (step == 928) {
+        sparklebg.alpha = 1;
+        sparklefg.alpha = 1;
+    // RESET
+        sparklebg.x = 220;
+        sparklefg.x = -500;
+    }
+    if (step == 1152) {
+        FlxTween.tween(sparklebg, { alpha: 0 }, 1.5, { ease: FlxEase.quadOut });
+        FlxTween.tween(sparklefg, { alpha: 0 }, 1.5, { ease: FlxEase.quadOut });
+    }
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
