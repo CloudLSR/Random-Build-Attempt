@@ -5,18 +5,17 @@ function init(char) {
     var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
     trace(": )");
     char.frames = tex;
-    char.animation.addByPrefix('idle', 'Mom Idle0', 24, true);
-    char.animation.addByPrefix('singUP', 'Mom Up Pose0', 24, true);
-    char.animation.addByPrefix('singLEFT','Mom Left Pose0', 24, true);
-    char.animation.addByPrefix('singRIGHT', 'Mom Pose Left0', 24, true);
-    char.animation.addByPrefix('singDOWN', 'MOM DOWN POSE0', 24, true);
-    
+    char.animation.addByPrefix('idle', 'Mom Idle0', 24, false);
+    char.animation.addByPrefix('singUP', 'Mom Up Pose0', 24, false);
+    char.animation.addByPrefix('singLEFT','Mom Left Pose0', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'Mom Pose Left0', 24, false);
+    char.animation.addByPrefix('singDOWN', 'MOM DOWN POSE0', 24, false);
 
-    char.addOffset('idle',0);
-    char.addOffset('singUP', 14, 71);
-    char.addOffset('singRIGHT',10, -60);
-    char.addOffset('singLEFT', 250, -23);
-    char.addOffset('singDOWN', 20, -160);
+    char.addOffset('idle', 0, 0);
+    char.addOffset('singUP', 14, 67);
+    char.addOffset('singRIGHT', 6, -59);
+    char.addOffset('singLEFT', 243, -25);
+    char.addOffset('singDOWN', 30, -62);
 
     char.playAnim('idle');
 

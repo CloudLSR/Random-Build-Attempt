@@ -1,0 +1,165 @@
+var bg;
+var bgLimo;
+var dancers;
+var limo;
+var fastcar;
+
+function start(song) {
+    bg = new FlxSprite(-120, -50).loadGraphic(hscriptPath + 'limoSunset.png');
+    bg.scrollFactor.set(0.1, 0.1);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+
+    bgLimo = new FlxSprite(-2400, -252);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'bgLimo.png', hscriptPath + 'bgLimo.xml');
+    bgLimo.frames = tex;
+    bgLimo.animation.addByPrefix('idle', 'BG limo0', 24, true);
+    bgLimo.animation.play('idle', true);
+    bgLimo.scrollFactor.set(0.4, 0.7);
+    bgLimo.antialiasing = true;
+    addSprite(bgLimo, BEHIND_ALL);
+
+    dancers = new FlxGroup();
+	var bootex = FlxAtlasFrames.fromSparrow(hscriptPath + 'limoDancer.png',hscriptPath + 'limoDancer.xml');
+    for (i in 0...5) {
+        var boogie = new MetroSprite((370 * i) + -400, 80, false);
+        boogie.alpha = 0; // INVISIBLE PARA EVENTO
+        boogie.frames = bootex;
+        boogie.animation.addByIndices('danceLeft', 'bg dancer sketch PINK', makeRangeArray(15), "", 24, false);
+        boogie.animation.addByIndices('danceRight', 'bg dancer sketch PINK', makeRangeArray(30,15), "", 24, false);
+        boogie.animation.play('danceLeft', false);
+        boogie.antialiasing = true;
+        boogie.scrollFactor.set(0.4, 0.7);
+        dancers.add(boogie);
+    }
+    addSprite(dancers, BEHIND_ALL);
+
+    limo = new FlxSprite(-320, 490);
+    var limotex = FlxAtlasFrames.fromSparrow(hscriptPath + 'limoDrive.png', hscriptPath  + 'limoDrive.xml');
+    limo.frames = limotex;
+    limo.animation.addByPrefix('drive', 'Limo stage', 24, true);
+    limo.animation.play('drive', false);
+    limo.antialiasing = true;
+    addSprite(limo, BEHIND_DAD | BEHIND_BF);
+
+    fastcar = new FlxSprite(-300, 160).loadGraphic(hscriptPath + 'fastCarLol.png');
+    addSprite(fastcar, BEHIND_NONE);
+    
+    getHaxeActor("bf").x += 260;
+    getHaxeActor("bf").y -= 150;
+    getHaxeActor("dad").y -= 7;
+    getHaxeActor("gf").x += 130;
+    getHaxeActor("gf").y += 100;
+
+    getHaxeActor("gf").scrollFactor.set(0.4, 0.7);
+
+    getHaxeActor("bf").followCamX -= 270;
+    getHaxeActor("bf").followCamY -= 19;
+
+    setDefaultZoom(0.9);
+
+    resetVroomVroom();
+}
+
+var vroomVroomCanVroom = true;
+function resetVroomVroom() {
+    fastcar.x = -12600;
+    fastcar.y = FlxG.random.int(140, -100);
+    fastcar.velocity.x = 0;
+    vroomVroomCanVroom = true;
+}
+
+function doVroomVroom() {
+    FlxG.sound.play(FNFAssets.getSound(hscriptPath + 'carPass' + FlxG.random.int(0,1)+'.ogg'));
+    fastcar.velocity.x = FlxG.random.int(170,220) / FlxG.elapsed;
+    vroomVroomCanVroom = false;
+    new FlxTimer().start(2, function(tmr) {
+        resetVroomVroom();
+    });
+}
+
+function beatHit(beat) {
+    dancers.forEach(function (spr) {
+        spr.dance();
+    });
+    if (FlxG.random.bool(10) && vroomVroomCanVroom) {
+        doVroomVroom();
+    }
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step) {
+// SHAKE EFFECT
+    if (step >= 0 && step <= 736 && step % 2 == 0) {
+        FlxG.camera.shake(0.003, 0.25);
+    }
+
+// CAM ZOOMS
+    if (step >= 0 && step <= 128 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.85 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 128 && step <= 152 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.825 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 160 && step <= 288 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.85 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 288 && step <= 416 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.825 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 544 && step <= 736 && step % 2 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.1 }, 0.001, { ease: FlxEase.quadOut });
+    }
+    if (step >= 736 && step <= 760 && step % 4 == 0) {
+        FlxTween.tween(FlxG.camera, { zoom: 1.2 }, 0.001, { ease: FlxEase.quadOut });
+    }
+
+// FL PEAK MOMENT
+    if (step == 416) {
+        FlxTween.tween(camHUD, { alpha: 0 }, 2.5, { ease: FlxEase.quadOut });
+
+        dancers.forEach(function(spr) {
+        FlxTween.tween(spr, { alpha: 1 }, 3.5, { ease: FlxEase.quadOut });
+        });
+        
+        FlxTween.tween(FlxG.camera, { zoom: 1.5 }, 10, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(1.5); }});
+    }
+// BF PEAK MOMENT
+    if (step == 476) {
+        FlxTween.tween(camHUD, { alpha: 1 }, 1.1, { ease: FlxEase.quadOut });
+    }
+    if (step == 480) {
+        FlxTween.tween(FlxG.camera, { zoom: 0.9 }, 9, { 
+        ease: FlxEase.quadOut, onComplete: function(_) {
+        setDefaultZoom(0.9); }});
+    }
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

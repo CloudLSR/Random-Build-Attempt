@@ -776,7 +776,12 @@
   "fl-chan": {
     "like": "fl-chan",
     "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "colors": ["#92D17B"]
+  },
+    "gf-train": {
+    "like": "gf-train",
+    "icons": [0,1,2,3],
+    "colors": ["#EE19D9"]
   },
 
   "sky-annoyed": {
