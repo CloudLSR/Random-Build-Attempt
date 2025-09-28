@@ -778,7 +778,7 @@
     "icons": [0,1,24],
     "colors": ["#92D17B"]
   },
-    "gf-train": {
+  "gf-train": {
     "like": "gf-train",
     "icons": [0,1,2,3],
     "colors": ["#EE19D9"]
@@ -787,7 +787,7 @@
   "sky-annoyed": {
     "like": "sky-annoyed",
     "icons": [0,1,24],
-    "colors": ["#7E6AA1"]
+    "colors": ["#E0CED9"]
   },
 
   "bf-doki": {

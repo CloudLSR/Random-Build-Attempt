@@ -1,0 +1,59 @@
+var bg;
+
+function start(song) {
+    bg = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'bg_annoyed.png', hscriptPath + 'bg_annoyed.xml');
+    bg.frames = tex;
+    bg.animation.addByPrefix("idle", "bg20", 24, false);
+    bg.animation.addByPrefix("boom", "bgBOOM0", 24, false );
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+
+	getHaxeActor("boyfriend").x += 100;
+	getHaxeActor("boyfriend").y -= 5;
+	getHaxeActor("dad").x -= 27;
+	getHaxeActor("dad").y += 110;
+
+    getHaxeActor("boyfriend").followCamX -= 40;
+    getHaxeActor("dad").followCamX += 25;
+    getHaxeActor("dad").followCamY -= 72;
+
+    setDefaultZoom(0.89);
+}
+
+function beatHit(beat)
+{
+    bg.animation.play("idle");
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
