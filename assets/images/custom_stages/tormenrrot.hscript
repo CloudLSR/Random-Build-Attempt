@@ -1,4 +1,9 @@
 var bg;
+
+// FLOTAR
+var dad = getHaxeActor("dad");
+var originalY = dad.y; // POSICIÓN ACTUAL
+
 function start(song) {
     bg = new FlxSprite(-700, -425);
     var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'Tormentor.png', hscriptPath + 'Tormentor.xml');
@@ -8,8 +13,30 @@ function start(song) {
     bg.setGraphicSize(Std.int(bg.width * 0.8));
     bg.antialiasing = true;
     addSprite(bg, BEHIND_ALL);
+
+    // SPIKES & TEXTS
+        shadow = new FlxSprite(0, 0).loadGraphic(hscriptPath + 'shadow.png');
+        shadow.setGraphicSize(Std.int(shadow.width * 0.667));
+        shadow.antialiasing = true;
+        shadow.screenCenter();
+        shadow.cameras = [camHUD];
+        shadow.alpha = 0.5;
+        addSprite(shadow, BEHIND_DAD | BEHIND_BF);
+
+    setDefaultZoom(0.86);
+
+// FLOTAR
+    floatDad();
 }
 
+// FLOTAR
+function floatDad() {
+    FlxTween.tween(dad, { y: originalY - 26 }, 1.3, { ease: FlxEase.sineInOut, onComplete: function(_) {
+        FlxTween.tween(dad, { y: originalY + 26 }, 1.3, { ease: FlxEase.sineInOut, onComplete: function(_) {
+            floatDad();
+        }});
+    }});
+}
 
 function update(elapsed)
 {
@@ -21,7 +48,6 @@ function stepHit(step)
 
 function playerTwoTurn()
 {
-setDefaultZoom(0.86);
 }
 
 function playerTwoMiss()
@@ -34,7 +60,6 @@ function playerTwoSing()
 
 function playerOneTurn()
 {
-setDefaultZoom(0.86);
 }
 
 function playerOneMiss()
@@ -44,4 +69,3 @@ function playerOneMiss()
 function playerOneSing()
 {
 }
-
