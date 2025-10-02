@@ -12,7 +12,7 @@ class DiscordClient
         #if cpp
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "840632338949210114",
+			clientID: "1420791983705948292",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
@@ -89,8 +89,10 @@ class DiscordClient
 		DiscordRpc.presence({
 			details: details,
 			state: state,
-			largeImageKey: smallImageKey,
-			largeImageText: smallImageString,
+    		largeImageKey: "icon",
+    		largeImageText: "Friday Night Funkin' Modding Plus",
+    		smallImageKey: smallImageKey,
+    		smallImageText: smallImageString,
 			// Obtained times are in milliseconds so they are divided so Discord can use it
 			startTimestamp: Std.int(startTimestamp / 1000),
 			endTimestamp: Std.int(endTimestamp / 1000)
