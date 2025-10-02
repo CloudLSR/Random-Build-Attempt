@@ -33,45 +33,57 @@
       "animation": "week 5",
       // bf and gf default to regular values,
       // but for examples sake i include them here
-      "dad": "parents-christmas",
-      "bf": "bf",
-      "gf": "gf"
+      "dad": "lemonweek",
+      "bf": "nothing",
+      "gf": "nothing"
     },
     {
       "songs": ["Pico-Remix", "Philly-Nice-Remix", "Blammed-X-MILF"],
-      "name": "One Shot Could End All Of This",
+      "name": "In My Way",
       "animation": "Week 3 press",
-      "dad": "pico"
+      "dad": "picoweek",
+      "bf": "nothing",
+      "gf": "nothing"
     },
     {
       "songs": ["Spookeez-Remix", "Sanguine-South", "Chiller"],
       "name": "Good Times Must End",
       "animation": "week2 select",
-      "dad": "spooky"
+      "dad": "spookyweek",
+      "bf": "nothing",
+      "gf": "nothing"
     },
     {
       "songs": ["Matricidal", "MILK", "Schizophrenzy"],
-      "name": "Now It's Your Job",
+      "name": "Must Murder Mommy",
       "animation": "Week 4 press",
-      "dad": "mom"
+      "dad": "momweek",
+      "bf": "nothing",
+      "gf": "nothing"
     },
     {
       "songs": ["Senpai-Remix", "Dead-Pixel", "Treacherous-Thorns", "Roots"],
-      "name": "Horror Simulator",
+      "name": "Delete",
       "animation": "Week 6",
-      "dad": "senpai"
+      "dad": "spiritweek",
+      "bf": "nothing",
+      "gf": "nothing"
     },
     {
       "songs": ["Lament", "Dusk", "Deathmatch"],
-      "name": "Your Time Has Come",
+      "name": "One Left",
       "animation": "WEEK1 select",
-      "dad": "dad"
+      "dad": "dadweek",
+      "bf": "nothing",
+      "gf": "nothing"
     },
     {
       "songs": ["Tormentor", "Neuroses", "Discharge"],
-      "name": "It's Time To Wake Up",
+      "name": "???",
       "animation": "tutorial selected",
-      "dad": "dad"
+      "dad": "soulweek",
+      "bf": "nothing",
+      "gf": "nothing"
     }
 
   ],

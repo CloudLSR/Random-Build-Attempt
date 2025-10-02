@@ -1,6 +1,6 @@
 {
     "skipVictoryScreen": true,
-    "skipModifierMenu": true,
+    "skipModifierMenu": false,
     "alwaysDoCutscenes": false,
     "useCustomInput": true,
     "allowEditOptions": true,
@@ -27,5 +27,9 @@
     "allowFreeplay": true,
     "allowDonate": false,
     "fpsCap": 60,
-    "titleToggle": true
+    "titleToggle": true,
+    "skipDebugScreen": null,
+    "dontMuteMiss": null,
+    "hitSounds": null,
+    "ignoreVile" : null
 }

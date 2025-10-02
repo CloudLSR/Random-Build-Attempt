@@ -625,7 +625,7 @@ class StoryMenuState extends MusicBeatState
 		{
 			txtTracklist.text += "\n" + i;
 		}
-		txtTracklist.text += "\n shitty workaround but ok";
+		// txtTracklist.text += "\n shitty workaround but ok";
 		trace(txtTracklist.text);
 		txtTracklist.text = StringTools.replace(txtTracklist.text.toUpperCase(), "-", " ");
 		trace(txtTracklist.text);
